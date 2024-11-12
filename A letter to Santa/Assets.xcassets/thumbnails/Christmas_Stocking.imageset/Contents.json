@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Christmas_Stocking.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

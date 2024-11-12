@@ -1,0 +1,10 @@
+platform :ios, '14.2'
+use_frameworks!
+
+target 'RecordARFace_Example' do
+
+
+  target 'RecordARFace_Tests' do
+    inherit! :search_paths
+  end
+end

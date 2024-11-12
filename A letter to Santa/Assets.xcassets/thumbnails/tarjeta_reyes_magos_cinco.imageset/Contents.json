@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tarjeta_reyes_magos_cinco.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

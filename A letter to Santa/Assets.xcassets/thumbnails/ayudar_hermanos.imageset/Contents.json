@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ayudar_hermanos.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

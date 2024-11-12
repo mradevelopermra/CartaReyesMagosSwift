@@ -1,0 +1,200 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "3EE7662D-4FF7-4E6B-BD42-5C33D7DD65DA",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "7A71F24A-8495-4EC9-A12E-E43261668508" : null,
+                  "9D2BA894-C23E-4145-A85A-E79857B6F4BF" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:da0de8d8e3eee2c62a56a40538d9f50a\/sombrero_bruja_morado.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "8B389138-27FE-4410-9DD7-04C4A273CE26"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "438CAE39-F158-4B17-95D1-09FDA25A1D74"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.32510530948638916,
+                        9.6889237966024666e-08,
+                        -1.9378193272245881e-08,
+                        0,
+                        -1.937810623076075e-08,
+                        1.937769233961717e-08,
+                        -0.32510372996330261,
+                        0,
+                        -9.6888776113246422e-08,
+                        0.325103759765625,
+                        1.9377694115974009e-08,
+                        0,
+                        -0.0018586963415145874,
+                        0.0024512391537427902,
+                        -0.23385904729366302,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Escena",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.97752386331558228,
+                  -1.3969838619232178e-08,
+                  -0.21082474291324615,
+                  0,
+                  0.012106490321457386,
+                  0.99834978580474854,
+                  0.056133609265089035,
+                  0,
+                  0.2104770690202713,
+                  -0.057424210011959076,
+                  0.9759107232093811,
+                  0,
+                  0.12215747684240341,
+                  0.068514272570610046,
+                  0.98322474956512451,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

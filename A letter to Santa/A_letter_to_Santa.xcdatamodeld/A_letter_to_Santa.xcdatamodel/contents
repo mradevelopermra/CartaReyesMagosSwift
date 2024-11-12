@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G726" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BuenasAcciones" representedClassName="BuenasAcciones" syncable="YES" codeGenerationType="class">
+        <attribute name="comentarios" optional="YES" attributeType="String"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="nombreAccion" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Carta" representedClassName="Carta" syncable="YES" codeGenerationType="class">
+        <attribute name="edad" optional="YES" attributeType="String"/>
+        <attribute name="fechaCreacion" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaReyes" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="nombreFirma" optional="YES" attributeType="String"/>
+        <attribute name="nombreNino" optional="YES" attributeType="String"/>
+        <attribute name="opcionDos" optional="YES" attributeType="String"/>
+        <attribute name="opcionTres" optional="YES" attributeType="String"/>
+        <attribute name="opcionUno" optional="YES" attributeType="String"/>
+        <attribute name="sePorto" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CategoriaAccionesFecha" representedClassName="CategoriaAccionesFecha" syncable="YES" codeGenerationType="class">
+        <attribute name="fechaGuardado" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="imagen" optional="YES" attributeType="String"/>
+        <attribute name="nombreAccion" optional="YES" attributeType="String"/>
+    </entity>
+</model>

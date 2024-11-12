@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "christmas_gift_shop.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

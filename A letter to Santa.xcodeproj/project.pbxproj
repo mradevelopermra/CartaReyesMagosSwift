@@ -1,0 +1,1465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A01A3B42AB23A1B00E45DC3 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01A3B32AB23A1B00E45DC3 /* FocusEntity */; };
+		7A01A3B72AB23B1000E45DC3 /* HomeCamaraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01A3B62AB23B1000E45DC3 /* HomeCamaraView.swift */; };
+		7A01A3B92AB23B5D00E45DC3 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01A3B82AB23B5D00E45DC3 /* ControlView.swift */; };
+		7A01A3BB2AB23C0D00E45DC3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01A3BA2AB23C0D00E45DC3 /* MenuView.swift */; };
+		7A01A3C02AB23E0E00E45DC3 /* Christmas_Hat.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3BD2AB23E0B00E45DC3 /* Christmas_Hat.usdz */; };
+		7A01A3C12AB23E0E00E45DC3 /* Christmas_Stocking.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3BE2AB23E0C00E45DC3 /* Christmas_Stocking.usdz */; };
+		7A01A3C22AB23E0E00E45DC3 /* gift_box.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3BF2AB23E0E00E45DC3 /* gift_box.usdz */; };
+		7A01A3C52AB2523700E45DC3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01A3C42AB2523700E45DC3 /* Model.swift */; };
+		7A01A3C72AB2598F00E45DC3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01A3C62AB2598F00E45DC3 /* Settings.swift */; };
+		7A01A3C92AB2622F00E45DC3 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01A3C82AB2622F00E45DC3 /* CameraView.swift */; };
+		7A01A3CB2AB2633D00E45DC3 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01A3CA2AB2633D00E45DC3 /* CustomARView.swift */; };
+		7A01A3D42AB2968200E45DC3 /* Stack_of_Christmas_Gifts.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3CC2AB2967A00E45DC3 /* Stack_of_Christmas_Gifts.usdz */; };
+		7A01A3D52AB2968200E45DC3 /* Larrys_Christmas_Cookies.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3CD2AB2967C00E45DC3 /* Larrys_Christmas_Cookies.usdz */; };
+		7A01A3D62AB2968200E45DC3 /* Christmas_Tree_Gingerbread_Cookie_Arbol_Navidad.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3CE2AB2967D00E45DC3 /* Christmas_Tree_Gingerbread_Cookie_Arbol_Navidad.usdz */; };
+		7A01A3D72AB2968200E45DC3 /* Christmas_Lights.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3CF2AB2967E00E45DC3 /* Christmas_Lights.usdz */; };
+		7A01A3D82AB2968200E45DC3 /* Merry_Christmas.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3D02AB2967F00E45DC3 /* Merry_Christmas.usdz */; };
+		7A01A3D92AB2968200E45DC3 /* Christmas_Wreath_Cookie.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3D12AB2968000E45DC3 /* Christmas_Wreath_Cookie.usdz */; };
+		7A01A3DA2AB2968200E45DC3 /* Low-Poly_Christmas_Presents.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3D22AB2968100E45DC3 /* Low-Poly_Christmas_Presents.usdz */; };
+		7A01A3DB2AB2968200E45DC3 /* Milk_and_Cookies_for_Santa.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3D32AB2968200E45DC3 /* Milk_and_Cookies_for_Santa.usdz */; };
+		7A01A3DD2AB8C01E00E45DC3 /* USDZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01A3DC2AB8C01E00E45DC3 /* USDZView.swift */; };
+		7A01A3EB2AB8FB5F00E45DC3 /* Christmas_gingerbread_man.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E02AB8FB5300E45DC3 /* Christmas_gingerbread_man.usdz */; };
+		7A01A3EC2AB8FB5F00E45DC3 /* Christmas_lights_uno.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E12AB8FB5300E45DC3 /* Christmas_lights_uno.usdz */; };
+		7A01A3ED2AB8FB5F00E45DC3 /* christmas_bell.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E22AB8FB5400E45DC3 /* christmas_bell.usdz */; };
+		7A01A3EE2AB8FB5F00E45DC3 /* Christmas_gate.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E32AB8FB5500E45DC3 /* Christmas_gate.usdz */; };
+		7A01A3EF2AB8FB5F00E45DC3 /* Christmas_Lights_dos.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E42AB8FB5600E45DC3 /* Christmas_Lights_dos.usdz */; };
+		7A01A3F02AB8FB5F00E45DC3 /* Christmas_Wreath.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E52AB8FB5800E45DC3 /* Christmas_Wreath.usdz */; };
+		7A01A3F12AB8FB5F00E45DC3 /* Christmas_Star.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E62AB8FB5800E45DC3 /* Christmas_Star.usdz */; };
+		7A01A3F22AB8FB5F00E45DC3 /* Neon_christmas_tree_-_Day_12.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E72AB8FB5900E45DC3 /* Neon_christmas_tree_-_Day_12.usdz */; };
+		7A01A3F32AB8FB5F00E45DC3 /* Simple_Christmas_Tree.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E82AB8FB5A00E45DC3 /* Simple_Christmas_Tree.usdz */; };
+		7A01A3F42AB8FB5F00E45DC3 /* Wooden_Christmas_Tree_Decoration_with_Lights.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3E92AB8FB5C00E45DC3 /* Wooden_Christmas_Tree_Decoration_with_Lights.usdz */; };
+		7A01A3F52AB8FB5F00E45DC3 /* Snowflake.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A01A3EA2AB8FB5E00E45DC3 /* Snowflake.usdz */; };
+		7A0514DD2ACC4CE400E1DF12 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0514DC2ACC4CE400E1DF12 /* StoreKit.framework */; };
+		7A1B14E92B3632370092BF7B /* ARModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B14E82B3632370092BF7B /* ARModelView.swift */; };
+		7A43A5FF2BAD1C9100E74218 /* sombrerobruja.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7A43A5FE2BAD1C9100E74218 /* sombrerobruja.rcproject */; };
+		7A43A6012BAD1C9C00E74218 /* coronarosa.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7A43A6002BAD1C9C00E74218 /* coronarosa.rcproject */; };
+		7A43A6032BAD2C6200E74218 /* PromocionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A43A6022BAD2C6200E74218 /* PromocionView.swift */; };
+		7A588BAC2A9D6D1100250F7C /* DalleUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A588BAB2A9D6D1100250F7C /* DalleUIView.swift */; };
+		7A588BAE2A9D6EDE00250F7C /* DalleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A588BAD2A9D6EDE00250F7C /* DalleViewModel.swift */; };
+		7A588BB02A9D6F3200250F7C /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A588BAF2A9D6F3200250F7C /* ImageModel.swift */; };
+		7A588BB42A9E88CC00250F7C /* ListaPodCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A588BB32A9E88CC00250F7C /* ListaPodCardsView.swift */; };
+		7A6988222B62C9DF00F36B85 /* FotoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6988212B62C9DF00F36B85 /* FotoUIView.swift */; };
+		7A6988242B64166D00F36B85 /* FotoARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6988232B64166D00F36B85 /* FotoARView.swift */; };
+		7A6988272B64225400F36B85 /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 7A6988262B64225400F36B85 /* CropViewController */; };
+		7A6988292B64225400F36B85 /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 7A6988282B64225400F36B85 /* TOCropViewController */; };
+		7A6C78D12AC2292000EBA698 /* bota.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78D02AC2292000EBA698 /* bota.png */; };
+		7A6C78D32AC2298100EBA698 /* chimenea.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78D22AC2298100EBA698 /* chimenea.png */; };
+		7A6C78D52AC2299700EBA698 /* noche_buena_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78D42AC2299700EBA698 /* noche_buena_normal.png */; };
+		7A6C78D72AC22A2700EBA698 /* pino_dos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78D62AC22A2700EBA698 /* pino_dos.png */; };
+		7A6C78D92AC22A4A00EBA698 /* pino_dots_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78D82AC22A4A00EBA698 /* pino_dots_normal.png */; };
+		7A6C78DB2AC22A6100EBA698 /* pino_dots_tres_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78DA2AC22A6100EBA698 /* pino_dots_tres_normal.png */; };
+		7A6C78DD2AC22A7A00EBA698 /* pino.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78DC2AC22A7A00EBA698 /* pino.png */; };
+		7A6C78DF2AC22A8B00EBA698 /* regalo_dots_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78DE2AC22A8B00EBA698 /* regalo_dots_normal.png */; };
+		7A6C78E12AC22A9D00EBA698 /* regalos_dots_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78E02AC22A9D00EBA698 /* regalos_dots_normal.png */; };
+		7A6C78E32AC22AB000EBA698 /* santa_dot_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78E22AC22AB000EBA698 /* santa_dot_normal.png */; };
+		7A6C78E52AC22ABF00EBA698 /* snow_ball_clothes_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78E42AC22ABF00EBA698 /* snow_ball_clothes_normal.png */; };
+		7A6C78E72AC22AD300EBA698 /* snow_ball_dot_dos_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78E62AC22AD300EBA698 /* snow_ball_dot_dos_normal.png */; };
+		7A6C78E92AC22AF800EBA698 /* snow_ball_dot_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78E82AC22AF800EBA698 /* snow_ball_dot_normal.png */; };
+		7A6C78EB2AC22B0B00EBA698 /* snowball_dots_dos_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78EA2AC22B0B00EBA698 /* snowball_dots_dos_normal.png */; };
+		7A6C78ED2AC22B1900EBA698 /* trineo_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78EC2AC22B1900EBA698 /* trineo_normal.png */; };
+		7A6C78EF2AC22B2900EBA698 /* vela_dots_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C78EE2AC22B2900EBA698 /* vela_dots_normal.png */; };
+		7A703B2E2AB91865005AFAD0 /* ColoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A703B2D2AB91865005AFAD0 /* ColoringView.swift */; };
+		7A703B322AB9DEA7005AFAD0 /* ColoringViewDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A703B312AB9DEA7005AFAD0 /* ColoringViewDos.swift */; };
+		7A721C702ABE01DD008AB99D /* ContentDibujoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A721C6F2ABE01DD008AB99D /* ContentDibujoView.swift */; };
+		7A721C722AC10493008AB99D /* ContentMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A721C712AC10493008AB99D /* ContentMapView.swift */; };
+		7A721C812AC207E8008AB99D /* cabana_venados.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C732AC207E1008AB99D /* cabana_venados.png */; };
+		7A721C822AC207E8008AB99D /* pino_nacimiento.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C742AC207E1008AB99D /* pino_nacimiento.png */; };
+		7A721C832AC207E8008AB99D /* venado.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C752AC207E2008AB99D /* venado.png */; };
+		7A721C842AC207E8008AB99D /* luna_venados_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C762AC207E3008AB99D /* luna_venados_dot.png */; };
+		7A721C852AC207E8008AB99D /* cabana_venados_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C772AC207E3008AB99D /* cabana_venados_dot.png */; };
+		7A721C862AC207E8008AB99D /* patos_hombre_nieve.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C782AC207E4008AB99D /* patos_hombre_nieve.png */; };
+		7A721C872AC207E8008AB99D /* pino_nacimiento_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C792AC207E4008AB99D /* pino_nacimiento_dot.png */; };
+		7A721C882AC207E8008AB99D /* bota_dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C7A2AC207E5008AB99D /* bota_dulce.png */; };
+		7A721C892AC207E8008AB99D /* muneco_nieve_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C7B2AC207E5008AB99D /* muneco_nieve_dot.png */; };
+		7A721C8A2AC207E8008AB99D /* venado_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C7C2AC207E6008AB99D /* venado_dot.png */; };
+		7A721C8B2AC207E8008AB99D /* bota_dulce_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C7D2AC207E6008AB99D /* bota_dulce_dot.png */; };
+		7A721C8C2AC207E8008AB99D /* patos_hombre_nieve_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C7E2AC207E7008AB99D /* patos_hombre_nieve_dot.png */; };
+		7A721C8D2AC207E8008AB99D /* luna_venados.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C7F2AC207E7008AB99D /* luna_venados.png */; };
+		7A721C8E2AC207E8008AB99D /* muneco_nieve.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A721C802AC207E8008AB99D /* muneco_nieve.png */; };
+		7A754C632ACF676F002CDFA9 /* carta_reyes_magos_fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A754C622ACF676F002CDFA9 /* carta_reyes_magos_fondo.png */; };
+		7A754C652ACF7415002CDFA9 /* carta_reyes_magos_fondo_dos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A754C642ACF7415002CDFA9 /* carta_reyes_magos_fondo_dos.png */; };
+		7A754C672ACF741D002CDFA9 /* carta_reyes_magos_fondo_tres.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A754C662ACF741D002CDFA9 /* carta_reyes_magos_fondo_tres.png */; };
+		7A7B55202AF0164400666431 /* VideoCartaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B551F2AF0164400666431 /* VideoCartaView.swift */; };
+		7A7B55242AF01A5E00666431 /* santasHatNueve.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B55232AF01A5E00666431 /* santasHatNueve.rcproject */; };
+		7A7B62A82BC5DF550099FAAB /* ViewModelCategoriaAcciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B62A72BC5DF550099FAAB /* ViewModelCategoriaAcciones.swift */; };
+		7A7B62AA2BC5DFBF0099FAAB /* ViewModelAcciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B62A92BC5DFBF0099FAAB /* ViewModelAcciones.swift */; };
+		7A7B62AC2BC5E0590099FAAB /* addBuenasAccionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B62AB2BC5E0590099FAAB /* addBuenasAccionesView.swift */; };
+		7A7C89292A9E8AA900FD9B24 /* ModeloLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C89282A9E8AA900FD9B24 /* ModeloLista.swift */; };
+		7A7C89332A9E8B5A00FD9B24 /* tarjetaNavidadCincoColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C892B2A9E8B5800FD9B24 /* tarjetaNavidadCincoColor.png */; };
+		7A7C89342A9E8B5A00FD9B24 /* tarjetaNavidadTresColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C892C2A9E8B5800FD9B24 /* tarjetaNavidadTresColor.png */; };
+		7A7C89352A9E8B5A00FD9B24 /* tarjetaNavidadCuatro.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C892D2A9E8B5900FD9B24 /* tarjetaNavidadCuatro.png */; };
+		7A7C89362A9E8B5A00FD9B24 /* tarjetaNavidadTres.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C892E2A9E8B5900FD9B24 /* tarjetaNavidadTres.png */; };
+		7A7C89372A9E8B5A00FD9B24 /* tarjetaNavidadUno.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C892F2A9E8B5900FD9B24 /* tarjetaNavidadUno.png */; };
+		7A7C89382A9E8B5A00FD9B24 /* tarjetaNavidadDos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89302A9E8B5900FD9B24 /* tarjetaNavidadDos.png */; };
+		7A7C89392A9E8B5A00FD9B24 /* tarjetaNavidadCuatroColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89312A9E8B5A00FD9B24 /* tarjetaNavidadCuatroColor.png */; };
+		7A7C893A2A9E8B5A00FD9B24 /* tarjetaNavidadCinco.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89322A9E8B5A00FD9B24 /* tarjetaNavidadCinco.png */; };
+		7A7C893C2A9E8CF000FD9B24 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C893B2A9E8CF000FD9B24 /* EditView.swift */; };
+		7A7C893F2AA0D06E00FD9B24 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C893E2AA0D06E00FD9B24 /* Products.swift */; };
+		7A7C89412AA0D2A900FD9B24 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C89402AA0D2A900FD9B24 /* Store.swift */; };
+		7A7C89452AA60AC000FD9B24 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C89442AA60AC000FD9B24 /* BookView.swift */; };
+		7A7C89472AA60D2200FD9B24 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C89462AA60D2200FD9B24 /* Books.swift */; };
+		7A7C89582AAFF19100FD9B24 /* pino_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89482AAFF18B00FD9B24 /* pino_dot.png */; };
+		7A7C89592AAFF19100FD9B24 /* pino_dots_tres.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89492AAFF18B00FD9B24 /* pino_dots_tres.png */; };
+		7A7C895A2AAFF19100FD9B24 /* snowball_dots_dos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C894A2AAFF18C00FD9B24 /* snowball_dots_dos.png */; };
+		7A7C895B2AAFF19100FD9B24 /* trineo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C894B2AAFF18C00FD9B24 /* trineo.png */; };
+		7A7C895C2AAFF19100FD9B24 /* snow_ball_clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C894C2AAFF18C00FD9B24 /* snow_ball_clothes.png */; };
+		7A7C895D2AAFF19100FD9B24 /* bota_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C894D2AAFF18D00FD9B24 /* bota_dot.png */; };
+		7A7C895E2AAFF19100FD9B24 /* snow_ball_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C894E2AAFF18D00FD9B24 /* snow_ball_dot.png */; };
+		7A7C895F2AAFF19100FD9B24 /* vela_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C894F2AAFF18E00FD9B24 /* vela_dots.png */; };
+		7A7C89602AAFF19100FD9B24 /* santa_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89502AAFF18E00FD9B24 /* santa_dot.png */; };
+		7A7C89612AAFF19100FD9B24 /* chimenea_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89512AAFF18F00FD9B24 /* chimenea_dots.png */; };
+		7A7C89622AAFF19100FD9B24 /* pino_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89522AAFF18F00FD9B24 /* pino_dots.png */; };
+		7A7C89632AAFF19100FD9B24 /* pino_dos_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89532AAFF18F00FD9B24 /* pino_dos_dots.png */; };
+		7A7C89642AAFF19100FD9B24 /* regalo_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89542AAFF19000FD9B24 /* regalo_dots.png */; };
+		7A7C89652AAFF19100FD9B24 /* snow_ball_dot_dos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89552AAFF19000FD9B24 /* snow_ball_dot_dos.png */; };
+		7A7C89662AAFF19100FD9B24 /* noche_buena.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89562AAFF19000FD9B24 /* noche_buena.png */; };
+		7A7C89672AAFF19100FD9B24 /* regalos_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7C89572AAFF19100FD9B24 /* regalos_dots.png */; };
+		7A8293862BACAB5600F6BA2C /* EnviaCartaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8293852BACAB5600F6BA2C /* EnviaCartaUIView.swift */; };
+		7A82938A2BAD150E00F6BA2C /* sombrerobrujados.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7A8293892BAD150D00F6BA2C /* sombrerobrujados.rcproject */; };
+		7A8293902BAD178400F6BA2C /* coronaguinda.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7A82938E2BAD178300F6BA2C /* coronaguinda.rcproject */; };
+		7ABFA6772AF0622D003DA45E /* santasHatUno.reality in Resources */ = {isa = PBXBuildFile; fileRef = 7ABFA6762AF0622D003DA45E /* santasHatUno.reality */; };
+		7ABFA67C2AF1D2B2003DA45E /* CamaraPruebasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFA67B2AF1D2B2003DA45E /* CamaraPruebasView.swift */; };
+		7ABFA67E2AF206A3003DA45E /* VideoRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFA67D2AF206A3003DA45E /* VideoRecordingView.swift */; };
+		7ABFA6802AF37437003DA45E /* CamaraCartaPruebasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFA67F2AF37437003DA45E /* CamaraCartaPruebasView.swift */; };
+		7ABFA6892B296312003DA45E /* ARRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFA6882B296311003DA45E /* ARRecordingView.swift */; };
+		7AC5592A2AC2A4F800219553 /* ARModelViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC559292AC2A4F800219553 /* ARModelViewer.swift */; };
+		7AC5592C2AC2A64400219553 /* ContentModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC5592B2AC2A64400219553 /* ContentModelView.swift */; };
+		7AC559362AC3A36000219553 /* christmas_wreath_dos.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AC5592D2AC3A35100219553 /* christmas_wreath_dos.usdz */; };
+		7AC559372AC3A36000219553 /* christmas_gift_shop.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AC5592E2AC3A35200219553 /* christmas_gift_shop.usdz */; };
+		7AC559382AC3A36000219553 /* merry_christmas_dos.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AC5592F2AC3A35300219553 /* merry_christmas_dos.usdz */; };
+		7AC559392AC3A36000219553 /* christmas_pack.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AC559302AC3A35500219553 /* christmas_pack.usdz */; };
+		7AC5593A2AC3A36000219553 /* christmas_house.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AC559312AC3A35600219553 /* christmas_house.usdz */; };
+		7AC5593B2AC3A36000219553 /* datesroyale_christmas_scene.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AC559322AC3A35800219553 /* datesroyale_christmas_scene.usdz */; };
+		7AC5593C2AC3A36000219553 /* christmas_coffee_and_cake.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AC559332AC3A35B00219553 /* christmas_coffee_and_cake.usdz */; };
+		7AC5593D2AC3A36000219553 /* christmas_balls_dos.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AC559342AC3A35C00219553 /* christmas_balls_dos.usdz */; };
+		7AC5593E2AC3A36000219553 /* christmas_gift_boxes.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AC559352AC3A36000219553 /* christmas_gift_boxes.usdz */; };
+		7AC559402AC5B94900219553 /* ContentMapUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC5593F2AC5B94900219553 /* ContentMapUserView.swift */; };
+		7ADDE0A12ABA414C0047CD7B /* CameraCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADDE0A02ABA414C0047CD7B /* CameraCaptureView.swift */; };
+		7ADDE0A32ABA41C50047CD7B /* AVCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADDE0A22ABA41C50047CD7B /* AVCaptureViewController.swift */; };
+		7ADDE0A52ABA5E3B0047CD7B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADDE0A42ABA5E3B0047CD7B /* DrawingView.swift */; };
+		7ADDE0A72ABA66250047CD7B /* ColorableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADDE0A62ABA66250047CD7B /* ColorableImageView.swift */; };
+		7ADDE0AA2ABCB16E0047CD7B /* duende_esfera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADDE0A82ABCB16D0047CD7B /* duende_esfera.png */; };
+		7ADDE0AB2ABCB16E0047CD7B /* duende_esfera_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADDE0A92ABCB16E0047CD7B /* duende_esfera_dots.png */; };
+		7ADEAF572BA8BEE50059D4D6 /* ARModelViewVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF562BA8BEE50059D4D6 /* ARModelViewVideo.swift */; };
+		7ADEAF592BA9EAC70059D4D6 /* santasHatDiez.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF582BA9EAC60059D4D6 /* santasHatDiez.rcproject */; };
+		7ADEAF5B2BA9ED760059D4D6 /* santasHatOnce.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF5A2BA9ED750059D4D6 /* santasHatOnce.rcproject */; };
+		7ADEAF5D2BA9EEEF0059D4D6 /* santasHatDoce.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF5C2BA9EEEF0059D4D6 /* santasHatDoce.rcproject */; };
+		7ADEAF5F2BA9EFD70059D4D6 /* santasHatTrece.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF5E2BA9EFD70059D4D6 /* santasHatTrece.rcproject */; };
+		7ADEAF612BA9F09E0059D4D6 /* santasHatCatorce.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF602BA9F09E0059D4D6 /* santasHatCatorce.rcproject */; };
+		7ADEAF672BAA31260059D4D6 /* cute_crown.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF662BAA31250059D4D6 /* cute_crown.rcproject */; };
+		7ADEAF692BAA33C60059D4D6 /* coronaAzul.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF682BAA33C60059D4D6 /* coronaAzul.rcproject */; };
+		7ADEAF6F2BAB70AE0059D4D6 /* ListaModelosUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF6E2BAB70AE0059D4D6 /* ListaModelosUIView.swift */; };
+		7ADEAF7C2BAB74800059D4D6 /* gorro_luces.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF702BAB747D0059D4D6 /* gorro_luces.png */; };
+		7ADEAF7D2BAB74800059D4D6 /* sombrero_bruja_morado.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF712BAB747D0059D4D6 /* sombrero_bruja_morado.png */; };
+		7ADEAF7E2BAB74800059D4D6 /* tiara.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF722BAB747D0059D4D6 /* tiara.png */; };
+		7ADEAF7F2BAB74800059D4D6 /* corona_azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF732BAB747E0059D4D6 /* corona_azul.png */; };
+		7ADEAF802BAB74800059D4D6 /* corona_colores.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF742BAB747E0059D4D6 /* corona_colores.png */; };
+		7ADEAF812BAB74800059D4D6 /* gorro_santa_roblox.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF752BAB747E0059D4D6 /* gorro_santa_roblox.png */; };
+		7ADEAF822BAB74800059D4D6 /* corona_p_rojas.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF762BAB747F0059D4D6 /* corona_p_rojas.png */; };
+		7ADEAF832BAB74800059D4D6 /* corona_bowsete.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF772BAB747F0059D4D6 /* corona_bowsete.png */; };
+		7ADEAF842BAB74800059D4D6 /* corona_rosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF782BAB747F0059D4D6 /* corona_rosa.png */; };
+		7ADEAF852BAB74800059D4D6 /* gorro_bolita_santa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF792BAB747F0059D4D6 /* gorro_bolita_santa.png */; };
+		7ADEAF862BAB74800059D4D6 /* cute_crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF7A2BAB74800059D4D6 /* cute_crown.png */; };
+		7ADEAF872BAB74800059D4D6 /* gorro_cuadrado_orejas.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEAF7B2BAB74800059D4D6 /* gorro_cuadrado_orejas.png */; };
+		7ADEAF922BAB80E70059D4D6 /* gorrobolitas.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF882BAB80E50059D4D6 /* gorrobolitas.rcproject */; };
+		7ADEAF942BAB80E70059D4D6 /* gorroluces.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF8A2BAB80E50059D4D6 /* gorroluces.rcproject */; };
+		7ADEAF972BAB80E70059D4D6 /* tiaramorada.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF8D2BAB80E60059D4D6 /* tiaramorada.rcproject */; };
+		7ADEAF982BAB80E70059D4D6 /* gorroroblox.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF8E2BAB80E60059D4D6 /* gorroroblox.rcproject */; };
+		7ADEAF992BAB80E70059D4D6 /* coronabowsete.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF8F2BAB80E60059D4D6 /* coronabowsete.rcproject */; };
+		7ADEAF9A2BAB80E70059D4D6 /* corona_p_rojas.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF902BAB80E70059D4D6 /* corona_p_rojas.rcproject */; };
+		7ADEAF9B2BAB80E70059D4D6 /* gorroorejas.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEAF912BAB80E70059D4D6 /* gorroorejas.rcproject */; };
+		7AE12E992A8E861200C17D6F /* A_letter_to_SantaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12E982A8E861200C17D6F /* A_letter_to_SantaApp.swift */; };
+		7AE12E9B2A8E861200C17D6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12E9A2A8E861200C17D6F /* ContentView.swift */; };
+		7AE12E9D2A8E861D00C17D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE12E9C2A8E861D00C17D6F /* Assets.xcassets */; };
+		7AE12EA02A8E861D00C17D6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE12E9F2A8E861D00C17D6F /* Preview Assets.xcassets */; };
+		7AE12EA22A8E861D00C17D6F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12EA12A8E861D00C17D6F /* Persistence.swift */; };
+		7AE12EA52A8E861D00C17D6F /* A_letter_to_Santa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12EA32A8E861D00C17D6F /* A_letter_to_Santa.xcdatamodeld */; };
+		7AE12EAF2A8E861E00C17D6F /* A_letter_to_SantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12EAE2A8E861E00C17D6F /* A_letter_to_SantaTests.swift */; };
+		7AE12EB92A8E861F00C17D6F /* A_letter_to_SantaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12EB82A8E861F00C17D6F /* A_letter_to_SantaUITests.swift */; };
+		7AE12EBB2A8E861F00C17D6F /* A_letter_to_SantaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12EBA2A8E861F00C17D6F /* A_letter_to_SantaUITestsLaunchTests.swift */; };
+		7AE12ECA2A8E886900C17D6F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12EC92A8E886900C17D6F /* ViewModel.swift */; };
+		7AE12ECC2A8E8AB700C17D6F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12ECB2A8E8AB700C17D6F /* Home.swift */; };
+		7AE12ECE2A8E8ADC00C17D6F /* addView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12ECD2A8E8ADC00C17D6F /* addView.swift */; };
+		7AE12ED22A8FF80E00C17D6F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE12ED12A8FF80E00C17D6F /* LocationManager.swift */; };
+		7AE5FEC02AC7E41500185A82 /* cartoon-santa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AE5FEBF2AC7E41500185A82 /* cartoon-santa.jpeg */; };
+		7AE5FEC22AC7E8C000185A82 /* picmix.com_1757429.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AE5FEC12AC7E8C000185A82 /* picmix.com_1757429.gif */; };
+		7AE5FEC42ACA496200185A82 /* ValidaCompraMapaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5FEC32ACA496200185A82 /* ValidaCompraMapaUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AE12EAB2A8E861E00C17D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE12E8D2A8E861200C17D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE12E942A8E861200C17D6F;
+			remoteInfo = "A letter to Santa";
+		};
+		7AE12EB52A8E861F00C17D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE12E8D2A8E861200C17D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE12E942A8E861200C17D6F;
+			remoteInfo = "A letter to Santa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A01A3B62AB23B1000E45DC3 /* HomeCamaraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCamaraView.swift; sourceTree = "<group>"; };
+		7A01A3B82AB23B5D00E45DC3 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		7A01A3BA2AB23C0D00E45DC3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		7A01A3BD2AB23E0B00E45DC3 /* Christmas_Hat.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_Hat.usdz; sourceTree = "<group>"; };
+		7A01A3BE2AB23E0C00E45DC3 /* Christmas_Stocking.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_Stocking.usdz; sourceTree = "<group>"; };
+		7A01A3BF2AB23E0E00E45DC3 /* gift_box.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gift_box.usdz; sourceTree = "<group>"; };
+		7A01A3C42AB2523700E45DC3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7A01A3C62AB2598F00E45DC3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		7A01A3C82AB2622F00E45DC3 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7A01A3CA2AB2633D00E45DC3 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		7A01A3CC2AB2967A00E45DC3 /* Stack_of_Christmas_Gifts.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Stack_of_Christmas_Gifts.usdz; sourceTree = "<group>"; };
+		7A01A3CD2AB2967C00E45DC3 /* Larrys_Christmas_Cookies.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Larrys_Christmas_Cookies.usdz; sourceTree = "<group>"; };
+		7A01A3CE2AB2967D00E45DC3 /* Christmas_Tree_Gingerbread_Cookie_Arbol_Navidad.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_Tree_Gingerbread_Cookie_Arbol_Navidad.usdz; sourceTree = "<group>"; };
+		7A01A3CF2AB2967E00E45DC3 /* Christmas_Lights.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_Lights.usdz; sourceTree = "<group>"; };
+		7A01A3D02AB2967F00E45DC3 /* Merry_Christmas.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Merry_Christmas.usdz; sourceTree = "<group>"; };
+		7A01A3D12AB2968000E45DC3 /* Christmas_Wreath_Cookie.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_Wreath_Cookie.usdz; sourceTree = "<group>"; };
+		7A01A3D22AB2968100E45DC3 /* Low-Poly_Christmas_Presents.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Low-Poly_Christmas_Presents.usdz"; sourceTree = "<group>"; };
+		7A01A3D32AB2968200E45DC3 /* Milk_and_Cookies_for_Santa.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Milk_and_Cookies_for_Santa.usdz; sourceTree = "<group>"; };
+		7A01A3DC2AB8C01E00E45DC3 /* USDZView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZView.swift; sourceTree = "<group>"; };
+		7A01A3E02AB8FB5300E45DC3 /* Christmas_gingerbread_man.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_gingerbread_man.usdz; sourceTree = "<group>"; };
+		7A01A3E12AB8FB5300E45DC3 /* Christmas_lights_uno.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_lights_uno.usdz; sourceTree = "<group>"; };
+		7A01A3E22AB8FB5400E45DC3 /* christmas_bell.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = christmas_bell.usdz; sourceTree = "<group>"; };
+		7A01A3E32AB8FB5500E45DC3 /* Christmas_gate.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_gate.usdz; sourceTree = "<group>"; };
+		7A01A3E42AB8FB5600E45DC3 /* Christmas_Lights_dos.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_Lights_dos.usdz; sourceTree = "<group>"; };
+		7A01A3E52AB8FB5800E45DC3 /* Christmas_Wreath.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_Wreath.usdz; sourceTree = "<group>"; };
+		7A01A3E62AB8FB5800E45DC3 /* Christmas_Star.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Christmas_Star.usdz; sourceTree = "<group>"; };
+		7A01A3E72AB8FB5900E45DC3 /* Neon_christmas_tree_-_Day_12.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Neon_christmas_tree_-_Day_12.usdz"; sourceTree = "<group>"; };
+		7A01A3E82AB8FB5A00E45DC3 /* Simple_Christmas_Tree.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Simple_Christmas_Tree.usdz; sourceTree = "<group>"; };
+		7A01A3E92AB8FB5C00E45DC3 /* Wooden_Christmas_Tree_Decoration_with_Lights.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Wooden_Christmas_Tree_Decoration_with_Lights.usdz; sourceTree = "<group>"; };
+		7A01A3EA2AB8FB5E00E45DC3 /* Snowflake.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Snowflake.usdz; sourceTree = "<group>"; };
+		7A0514DC2ACC4CE400E1DF12 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7A1B14BB2B2988EF0092BF7B /* ARVideoKit-swift_5 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ARVideoKit-swift_5"; path = "../../../Downloads/ARVideoKit-swift_5"; sourceTree = "<group>"; };
+		7A1B14E82B3632370092BF7B /* ARModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModelView.swift; sourceTree = "<group>"; };
+		7A43A5FE2BAD1C9100E74218 /* sombrerobruja.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = sombrerobruja.rcproject; path = ../../../ModelosNavidad/sombrerobruja.rcproject; sourceTree = "<group>"; };
+		7A43A6002BAD1C9C00E74218 /* coronarosa.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = coronarosa.rcproject; path = ../../../ModelosNavidad/coronarosa.rcproject; sourceTree = "<group>"; };
+		7A43A6022BAD2C6200E74218 /* PromocionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocionView.swift; sourceTree = "<group>"; };
+		7A588BAB2A9D6D1100250F7C /* DalleUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalleUIView.swift; sourceTree = "<group>"; };
+		7A588BAD2A9D6EDE00250F7C /* DalleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalleViewModel.swift; sourceTree = "<group>"; };
+		7A588BAF2A9D6F3200250F7C /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		7A588BB32A9E88CC00250F7C /* ListaPodCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPodCardsView.swift; sourceTree = "<group>"; };
+		7A6988212B62C9DF00F36B85 /* FotoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoUIView.swift; sourceTree = "<group>"; };
+		7A6988232B64166D00F36B85 /* FotoARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoARView.swift; sourceTree = "<group>"; };
+		7A6C78D02AC2292000EBA698 /* bota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bota.png; sourceTree = "<group>"; };
+		7A6C78D22AC2298100EBA698 /* chimenea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chimenea.png; sourceTree = "<group>"; };
+		7A6C78D42AC2299700EBA698 /* noche_buena_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noche_buena_normal.png; sourceTree = "<group>"; };
+		7A6C78D62AC22A2700EBA698 /* pino_dos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino_dos.png; sourceTree = "<group>"; };
+		7A6C78D82AC22A4A00EBA698 /* pino_dots_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino_dots_normal.png; sourceTree = "<group>"; };
+		7A6C78DA2AC22A6100EBA698 /* pino_dots_tres_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino_dots_tres_normal.png; sourceTree = "<group>"; };
+		7A6C78DC2AC22A7A00EBA698 /* pino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino.png; sourceTree = "<group>"; };
+		7A6C78DE2AC22A8B00EBA698 /* regalo_dots_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regalo_dots_normal.png; sourceTree = "<group>"; };
+		7A6C78E02AC22A9D00EBA698 /* regalos_dots_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regalos_dots_normal.png; sourceTree = "<group>"; };
+		7A6C78E22AC22AB000EBA698 /* santa_dot_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa_dot_normal.png; sourceTree = "<group>"; };
+		7A6C78E42AC22ABF00EBA698 /* snow_ball_clothes_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow_ball_clothes_normal.png; sourceTree = "<group>"; };
+		7A6C78E62AC22AD300EBA698 /* snow_ball_dot_dos_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow_ball_dot_dos_normal.png; sourceTree = "<group>"; };
+		7A6C78E82AC22AF800EBA698 /* snow_ball_dot_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow_ball_dot_normal.png; sourceTree = "<group>"; };
+		7A6C78EA2AC22B0B00EBA698 /* snowball_dots_dos_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowball_dots_dos_normal.png; sourceTree = "<group>"; };
+		7A6C78EC2AC22B1900EBA698 /* trineo_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trineo_normal.png; sourceTree = "<group>"; };
+		7A6C78EE2AC22B2900EBA698 /* vela_dots_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vela_dots_normal.png; sourceTree = "<group>"; };
+		7A6C78F02AC22B7E00EBA698 /* cabana_venados_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cabana_venados_dot.png; path = ../../../../../Downloads/tarjetasdotynormal/cabana_venados_dot.png; sourceTree = "<group>"; };
+		7A6C78F12AC22B7E00EBA698 /* cabana_venados.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cabana_venados.png; path = ../../../../../Downloads/tarjetasdotynormal/cabana_venados.png; sourceTree = "<group>"; };
+		7A6C78F42AC22C1300EBA698 /* luna_venados_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = luna_venados_dot.png; path = ../../../../../Downloads/tarjetasdotynormal/luna_venados_dot.png; sourceTree = "<group>"; };
+		7A6C78F52AC22C1300EBA698 /* luna_venados.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = luna_venados.png; path = ../../../../../Downloads/tarjetasdotynormal/luna_venados.png; sourceTree = "<group>"; };
+		7A6C78F82AC22C3D00EBA698 /* muneco_nieve_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muneco_nieve_dot.png; path = ../../../../../Downloads/tarjetasdotynormal/muneco_nieve_dot.png; sourceTree = "<group>"; };
+		7A6C78F92AC22C3D00EBA698 /* muneco_nieve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muneco_nieve.png; path = ../../../../../Downloads/tarjetasdotynormal/muneco_nieve.png; sourceTree = "<group>"; };
+		7A6C78FC2AC22C5D00EBA698 /* patos_hombre_nieve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = patos_hombre_nieve.png; path = ../../../../../Downloads/tarjetasdotynormal/patos_hombre_nieve.png; sourceTree = "<group>"; };
+		7A6C78FD2AC22C5D00EBA698 /* patos_hombre_nieve_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = patos_hombre_nieve_dot.png; path = ../../../../../Downloads/tarjetasdotynormal/patos_hombre_nieve_dot.png; sourceTree = "<group>"; };
+		7A6C79002AC22C8700EBA698 /* pino_nacimiento_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pino_nacimiento_dot.png; path = ../../../../../Downloads/tarjetasdotynormal/pino_nacimiento_dot.png; sourceTree = "<group>"; };
+		7A6C79012AC22C8700EBA698 /* pino_nacimiento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pino_nacimiento.png; path = ../../../../../Downloads/tarjetasdotynormal/pino_nacimiento.png; sourceTree = "<group>"; };
+		7A6C79042AC22CA100EBA698 /* venado_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = venado_dot.png; path = ../../../../../Downloads/tarjetasdotynormal/venado_dot.png; sourceTree = "<group>"; };
+		7A6C79052AC22CA100EBA698 /* venado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = venado.png; path = ../../../../../Downloads/tarjetasdotynormal/venado.png; sourceTree = "<group>"; };
+		7A703B2D2AB91865005AFAD0 /* ColoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringView.swift; sourceTree = "<group>"; };
+		7A703B312AB9DEA7005AFAD0 /* ColoringViewDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringViewDos.swift; sourceTree = "<group>"; };
+		7A721C6F2ABE01DD008AB99D /* ContentDibujoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDibujoView.swift; sourceTree = "<group>"; };
+		7A721C712AC10493008AB99D /* ContentMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMapView.swift; sourceTree = "<group>"; };
+		7A721C732AC207E1008AB99D /* cabana_venados.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cabana_venados.png; sourceTree = "<group>"; };
+		7A721C742AC207E1008AB99D /* pino_nacimiento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino_nacimiento.png; sourceTree = "<group>"; };
+		7A721C752AC207E2008AB99D /* venado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venado.png; sourceTree = "<group>"; };
+		7A721C762AC207E3008AB99D /* luna_venados_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luna_venados_dot.png; sourceTree = "<group>"; };
+		7A721C772AC207E3008AB99D /* cabana_venados_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cabana_venados_dot.png; sourceTree = "<group>"; };
+		7A721C782AC207E4008AB99D /* patos_hombre_nieve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patos_hombre_nieve.png; sourceTree = "<group>"; };
+		7A721C792AC207E4008AB99D /* pino_nacimiento_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino_nacimiento_dot.png; sourceTree = "<group>"; };
+		7A721C7A2AC207E5008AB99D /* bota_dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bota_dulce.png; sourceTree = "<group>"; };
+		7A721C7B2AC207E5008AB99D /* muneco_nieve_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muneco_nieve_dot.png; sourceTree = "<group>"; };
+		7A721C7C2AC207E6008AB99D /* venado_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venado_dot.png; sourceTree = "<group>"; };
+		7A721C7D2AC207E6008AB99D /* bota_dulce_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bota_dulce_dot.png; sourceTree = "<group>"; };
+		7A721C7E2AC207E7008AB99D /* patos_hombre_nieve_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patos_hombre_nieve_dot.png; sourceTree = "<group>"; };
+		7A721C7F2AC207E7008AB99D /* luna_venados.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luna_venados.png; sourceTree = "<group>"; };
+		7A721C802AC207E8008AB99D /* muneco_nieve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muneco_nieve.png; sourceTree = "<group>"; };
+		7A754C622ACF676F002CDFA9 /* carta_reyes_magos_fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carta_reyes_magos_fondo.png; sourceTree = "<group>"; };
+		7A754C642ACF7415002CDFA9 /* carta_reyes_magos_fondo_dos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carta_reyes_magos_fondo_dos.png; sourceTree = "<group>"; };
+		7A754C662ACF741D002CDFA9 /* carta_reyes_magos_fondo_tres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carta_reyes_magos_fondo_tres.png; sourceTree = "<group>"; };
+		7A7B551F2AF0164400666431 /* VideoCartaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCartaView.swift; sourceTree = "<group>"; };
+		7A7B55232AF01A5E00666431 /* santasHatNueve.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = santasHatNueve.rcproject; sourceTree = "<group>"; };
+		7A7B62A72BC5DF550099FAAB /* ViewModelCategoriaAcciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelCategoriaAcciones.swift; sourceTree = "<group>"; };
+		7A7B62A92BC5DFBF0099FAAB /* ViewModelAcciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelAcciones.swift; sourceTree = "<group>"; };
+		7A7B62AB2BC5E0590099FAAB /* addBuenasAccionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addBuenasAccionesView.swift; sourceTree = "<group>"; };
+		7A7C89282A9E8AA900FD9B24 /* ModeloLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloLista.swift; sourceTree = "<group>"; };
+		7A7C892B2A9E8B5800FD9B24 /* tarjetaNavidadCincoColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjetaNavidadCincoColor.png; sourceTree = "<group>"; };
+		7A7C892C2A9E8B5800FD9B24 /* tarjetaNavidadTresColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjetaNavidadTresColor.png; sourceTree = "<group>"; };
+		7A7C892D2A9E8B5900FD9B24 /* tarjetaNavidadCuatro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjetaNavidadCuatro.png; sourceTree = "<group>"; };
+		7A7C892E2A9E8B5900FD9B24 /* tarjetaNavidadTres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjetaNavidadTres.png; sourceTree = "<group>"; };
+		7A7C892F2A9E8B5900FD9B24 /* tarjetaNavidadUno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjetaNavidadUno.png; sourceTree = "<group>"; };
+		7A7C89302A9E8B5900FD9B24 /* tarjetaNavidadDos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjetaNavidadDos.png; sourceTree = "<group>"; };
+		7A7C89312A9E8B5A00FD9B24 /* tarjetaNavidadCuatroColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjetaNavidadCuatroColor.png; sourceTree = "<group>"; };
+		7A7C89322A9E8B5A00FD9B24 /* tarjetaNavidadCinco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjetaNavidadCinco.png; sourceTree = "<group>"; };
+		7A7C893B2A9E8CF000FD9B24 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		7A7C893D2AA0C9F400FD9B24 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		7A7C893E2AA0D06E00FD9B24 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		7A7C89402AA0D2A900FD9B24 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		7A7C89442AA60AC000FD9B24 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		7A7C89462AA60D2200FD9B24 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		7A7C89482AAFF18B00FD9B24 /* pino_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino_dot.png; sourceTree = "<group>"; };
+		7A7C89492AAFF18B00FD9B24 /* pino_dots_tres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino_dots_tres.png; sourceTree = "<group>"; };
+		7A7C894A2AAFF18C00FD9B24 /* snowball_dots_dos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowball_dots_dos.png; sourceTree = "<group>"; };
+		7A7C894B2AAFF18C00FD9B24 /* trineo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trineo.png; sourceTree = "<group>"; };
+		7A7C894C2AAFF18C00FD9B24 /* snow_ball_clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow_ball_clothes.png; sourceTree = "<group>"; };
+		7A7C894D2AAFF18D00FD9B24 /* bota_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bota_dot.png; sourceTree = "<group>"; };
+		7A7C894E2AAFF18D00FD9B24 /* snow_ball_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow_ball_dot.png; sourceTree = "<group>"; };
+		7A7C894F2AAFF18E00FD9B24 /* vela_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vela_dots.png; sourceTree = "<group>"; };
+		7A7C89502AAFF18E00FD9B24 /* santa_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa_dot.png; sourceTree = "<group>"; };
+		7A7C89512AAFF18F00FD9B24 /* chimenea_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chimenea_dots.png; sourceTree = "<group>"; };
+		7A7C89522AAFF18F00FD9B24 /* pino_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino_dots.png; sourceTree = "<group>"; };
+		7A7C89532AAFF18F00FD9B24 /* pino_dos_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pino_dos_dots.png; sourceTree = "<group>"; };
+		7A7C89542AAFF19000FD9B24 /* regalo_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regalo_dots.png; sourceTree = "<group>"; };
+		7A7C89552AAFF19000FD9B24 /* snow_ball_dot_dos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow_ball_dot_dos.png; sourceTree = "<group>"; };
+		7A7C89562AAFF19000FD9B24 /* noche_buena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noche_buena.png; sourceTree = "<group>"; };
+		7A7C89572AAFF19100FD9B24 /* regalos_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regalos_dots.png; sourceTree = "<group>"; };
+		7A8293852BACAB5600F6BA2C /* EnviaCartaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviaCartaUIView.swift; sourceTree = "<group>"; };
+		7A8293892BAD150D00F6BA2C /* sombrerobrujados.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = sombrerobrujados.rcproject; sourceTree = "<group>"; };
+		7A82938E2BAD178300F6BA2C /* coronaguinda.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = coronaguinda.rcproject; path = ../../../ModelosNavidad/coronaguinda.rcproject; sourceTree = "<group>"; };
+		7ABFA6762AF0622D003DA45E /* santasHatUno.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = santasHatUno.reality; sourceTree = "<group>"; };
+		7ABFA6782AF08BB2003DA45E /* A-letter-to-Santa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "A-letter-to-Santa-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7ABFA67B2AF1D2B2003DA45E /* CamaraPruebasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraPruebasView.swift; sourceTree = "<group>"; };
+		7ABFA67D2AF206A3003DA45E /* VideoRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecordingView.swift; sourceTree = "<group>"; };
+		7ABFA67F2AF37437003DA45E /* CamaraCartaPruebasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraCartaPruebasView.swift; sourceTree = "<group>"; };
+		7ABFA6882B296311003DA45E /* ARRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRecordingView.swift; sourceTree = "<group>"; };
+		7AC559292AC2A4F800219553 /* ARModelViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModelViewer.swift; sourceTree = "<group>"; };
+		7AC5592B2AC2A64400219553 /* ContentModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModelView.swift; sourceTree = "<group>"; };
+		7AC5592D2AC3A35100219553 /* christmas_wreath_dos.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = christmas_wreath_dos.usdz; sourceTree = "<group>"; };
+		7AC5592E2AC3A35200219553 /* christmas_gift_shop.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = christmas_gift_shop.usdz; sourceTree = "<group>"; };
+		7AC5592F2AC3A35300219553 /* merry_christmas_dos.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = merry_christmas_dos.usdz; sourceTree = "<group>"; };
+		7AC559302AC3A35500219553 /* christmas_pack.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = christmas_pack.usdz; sourceTree = "<group>"; };
+		7AC559312AC3A35600219553 /* christmas_house.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = christmas_house.usdz; sourceTree = "<group>"; };
+		7AC559322AC3A35800219553 /* datesroyale_christmas_scene.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = datesroyale_christmas_scene.usdz; sourceTree = "<group>"; };
+		7AC559332AC3A35B00219553 /* christmas_coffee_and_cake.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = christmas_coffee_and_cake.usdz; sourceTree = "<group>"; };
+		7AC559342AC3A35C00219553 /* christmas_balls_dos.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = christmas_balls_dos.usdz; sourceTree = "<group>"; };
+		7AC559352AC3A36000219553 /* christmas_gift_boxes.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = christmas_gift_boxes.usdz; sourceTree = "<group>"; };
+		7AC5593F2AC5B94900219553 /* ContentMapUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMapUserView.swift; sourceTree = "<group>"; };
+		7ADDE0A02ABA414C0047CD7B /* CameraCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureView.swift; sourceTree = "<group>"; };
+		7ADDE0A22ABA41C50047CD7B /* AVCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCaptureViewController.swift; sourceTree = "<group>"; };
+		7ADDE0A42ABA5E3B0047CD7B /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		7ADDE0A62ABA66250047CD7B /* ColorableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorableImageView.swift; sourceTree = "<group>"; };
+		7ADDE0A82ABCB16D0047CD7B /* duende_esfera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duende_esfera.png; sourceTree = "<group>"; };
+		7ADDE0A92ABCB16E0047CD7B /* duende_esfera_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duende_esfera_dots.png; sourceTree = "<group>"; };
+		7ADEAF562BA8BEE50059D4D6 /* ARModelViewVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModelViewVideo.swift; sourceTree = "<group>"; };
+		7ADEAF582BA9EAC60059D4D6 /* santasHatDiez.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = santasHatDiez.rcproject; sourceTree = "<group>"; };
+		7ADEAF5A2BA9ED750059D4D6 /* santasHatOnce.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = santasHatOnce.rcproject; sourceTree = "<group>"; };
+		7ADEAF5C2BA9EEEF0059D4D6 /* santasHatDoce.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = santasHatDoce.rcproject; sourceTree = "<group>"; };
+		7ADEAF5E2BA9EFD70059D4D6 /* santasHatTrece.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = santasHatTrece.rcproject; sourceTree = "<group>"; };
+		7ADEAF602BA9F09E0059D4D6 /* santasHatCatorce.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = santasHatCatorce.rcproject; sourceTree = "<group>"; };
+		7ADEAF662BAA31250059D4D6 /* cute_crown.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = cute_crown.rcproject; path = ../../../ModelosNavidad/cute_crown.rcproject; sourceTree = "<group>"; };
+		7ADEAF682BAA33C60059D4D6 /* coronaAzul.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = coronaAzul.rcproject; sourceTree = "<group>"; };
+		7ADEAF6A2BAA74680059D4D6 /* cute_crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cute_crown.png; sourceTree = "<group>"; };
+		7ADEAF6B2BAA746B0059D4D6 /* corona_bowsete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corona_bowsete.png; sourceTree = "<group>"; };
+		7ADEAF6E2BAB70AE0059D4D6 /* ListaModelosUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaModelosUIView.swift; sourceTree = "<group>"; };
+		7ADEAF702BAB747D0059D4D6 /* gorro_luces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorro_luces.png; sourceTree = "<group>"; };
+		7ADEAF712BAB747D0059D4D6 /* sombrero_bruja_morado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sombrero_bruja_morado.png; sourceTree = "<group>"; };
+		7ADEAF722BAB747D0059D4D6 /* tiara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiara.png; sourceTree = "<group>"; };
+		7ADEAF732BAB747E0059D4D6 /* corona_azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corona_azul.png; sourceTree = "<group>"; };
+		7ADEAF742BAB747E0059D4D6 /* corona_colores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corona_colores.png; sourceTree = "<group>"; };
+		7ADEAF752BAB747E0059D4D6 /* gorro_santa_roblox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorro_santa_roblox.png; sourceTree = "<group>"; };
+		7ADEAF762BAB747F0059D4D6 /* corona_p_rojas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corona_p_rojas.png; sourceTree = "<group>"; };
+		7ADEAF772BAB747F0059D4D6 /* corona_bowsete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = corona_bowsete.png; path = ../../../ModelosNavidad/corona_bowsete.png; sourceTree = "<group>"; };
+		7ADEAF782BAB747F0059D4D6 /* corona_rosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corona_rosa.png; sourceTree = "<group>"; };
+		7ADEAF792BAB747F0059D4D6 /* gorro_bolita_santa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorro_bolita_santa.png; sourceTree = "<group>"; };
+		7ADEAF7A2BAB74800059D4D6 /* cute_crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cute_crown.png; path = ../../../ModelosNavidad/cute_crown.png; sourceTree = "<group>"; };
+		7ADEAF7B2BAB74800059D4D6 /* gorro_cuadrado_orejas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorro_cuadrado_orejas.png; sourceTree = "<group>"; };
+		7ADEAF882BAB80E50059D4D6 /* gorrobolitas.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = gorrobolitas.rcproject; sourceTree = "<group>"; };
+		7ADEAF8A2BAB80E50059D4D6 /* gorroluces.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = gorroluces.rcproject; sourceTree = "<group>"; };
+		7ADEAF8D2BAB80E60059D4D6 /* tiaramorada.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = tiaramorada.rcproject; sourceTree = "<group>"; };
+		7ADEAF8E2BAB80E60059D4D6 /* gorroroblox.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = gorroroblox.rcproject; sourceTree = "<group>"; };
+		7ADEAF8F2BAB80E60059D4D6 /* coronabowsete.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = coronabowsete.rcproject; sourceTree = "<group>"; };
+		7ADEAF902BAB80E70059D4D6 /* corona_p_rojas.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = corona_p_rojas.rcproject; sourceTree = "<group>"; };
+		7ADEAF912BAB80E70059D4D6 /* gorroorejas.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = gorroorejas.rcproject; sourceTree = "<group>"; };
+		7AE12E952A8E861200C17D6F /* A letter to Santa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A letter to Santa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE12E982A8E861200C17D6F /* A_letter_to_SantaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_letter_to_SantaApp.swift; sourceTree = "<group>"; };
+		7AE12E9A2A8E861200C17D6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AE12E9C2A8E861D00C17D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AE12E9F2A8E861D00C17D6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AE12EA12A8E861D00C17D6F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7AE12EA42A8E861D00C17D6F /* A_letter_to_Santa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = A_letter_to_Santa.xcdatamodel; sourceTree = "<group>"; };
+		7AE12EAA2A8E861E00C17D6F /* A letter to SantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A letter to SantaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE12EAE2A8E861E00C17D6F /* A_letter_to_SantaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_letter_to_SantaTests.swift; sourceTree = "<group>"; };
+		7AE12EB42A8E861F00C17D6F /* A letter to SantaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A letter to SantaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE12EB82A8E861F00C17D6F /* A_letter_to_SantaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_letter_to_SantaUITests.swift; sourceTree = "<group>"; };
+		7AE12EBA2A8E861F00C17D6F /* A_letter_to_SantaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_letter_to_SantaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AE12EC92A8E886900C17D6F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7AE12ECB2A8E8AB700C17D6F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7AE12ECD2A8E8ADC00C17D6F /* addView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addView.swift; sourceTree = "<group>"; };
+		7AE12ED12A8FF80E00C17D6F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7AE5FEBF2AC7E41500185A82 /* cartoon-santa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cartoon-santa.jpeg"; sourceTree = "<group>"; };
+		7AE5FEC12AC7E8C000185A82 /* picmix.com_1757429.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = picmix.com_1757429.gif; sourceTree = "<group>"; };
+		7AE5FEC32ACA496200185A82 /* ValidaCompraMapaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidaCompraMapaUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AE12E922A8E861200C17D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A01A3B42AB23A1B00E45DC3 /* FocusEntity in Frameworks */,
+				7A0514DD2ACC4CE400E1DF12 /* StoreKit.framework in Frameworks */,
+				7A6988292B64225400F36B85 /* TOCropViewController in Frameworks */,
+				7A6988272B64225400F36B85 /* CropViewController in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE12EA72A8E861E00C17D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE12EB12A8E861F00C17D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A01A3BC2AB23D4400E45DC3 /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEAF902BAB80E70059D4D6 /* corona_p_rojas.rcproject */,
+				7A8293892BAD150D00F6BA2C /* sombrerobrujados.rcproject */,
+				7A43A6002BAD1C9C00E74218 /* coronarosa.rcproject */,
+				7ADEAF8F2BAB80E60059D4D6 /* coronabowsete.rcproject */,
+				7A43A5FE2BAD1C9100E74218 /* sombrerobruja.rcproject */,
+				7ADEAF882BAB80E50059D4D6 /* gorrobolitas.rcproject */,
+				7A82938E2BAD178300F6BA2C /* coronaguinda.rcproject */,
+				7ADEAF8A2BAB80E50059D4D6 /* gorroluces.rcproject */,
+				7ADEAF912BAB80E70059D4D6 /* gorroorejas.rcproject */,
+				7ADEAF8E2BAB80E60059D4D6 /* gorroroblox.rcproject */,
+				7ADEAF8D2BAB80E60059D4D6 /* tiaramorada.rcproject */,
+				7ADEAF732BAB747E0059D4D6 /* corona_azul.png */,
+				7ADEAF772BAB747F0059D4D6 /* corona_bowsete.png */,
+				7ADEAF742BAB747E0059D4D6 /* corona_colores.png */,
+				7ADEAF762BAB747F0059D4D6 /* corona_p_rojas.png */,
+				7ADEAF782BAB747F0059D4D6 /* corona_rosa.png */,
+				7ADEAF7A2BAB74800059D4D6 /* cute_crown.png */,
+				7ADEAF792BAB747F0059D4D6 /* gorro_bolita_santa.png */,
+				7ADEAF7B2BAB74800059D4D6 /* gorro_cuadrado_orejas.png */,
+				7ADEAF702BAB747D0059D4D6 /* gorro_luces.png */,
+				7ADEAF752BAB747E0059D4D6 /* gorro_santa_roblox.png */,
+				7ADEAF712BAB747D0059D4D6 /* sombrero_bruja_morado.png */,
+				7ADEAF722BAB747D0059D4D6 /* tiara.png */,
+				7ADEAF682BAA33C60059D4D6 /* coronaAzul.rcproject */,
+				7ADEAF6B2BAA746B0059D4D6 /* corona_bowsete.png */,
+				7ADEAF6A2BAA74680059D4D6 /* cute_crown.png */,
+				7ADEAF662BAA31250059D4D6 /* cute_crown.rcproject */,
+				7A01A3CF2AB2967E00E45DC3 /* Christmas_Lights.usdz */,
+				7ADEAF5E2BA9EFD70059D4D6 /* santasHatTrece.rcproject */,
+				7ADEAF602BA9F09E0059D4D6 /* santasHatCatorce.rcproject */,
+				7ADEAF5A2BA9ED750059D4D6 /* santasHatOnce.rcproject */,
+				7A7B55232AF01A5E00666431 /* santasHatNueve.rcproject */,
+				7ADEAF5C2BA9EEEF0059D4D6 /* santasHatDoce.rcproject */,
+				7ADEAF582BA9EAC60059D4D6 /* santasHatDiez.rcproject */,
+				7ABFA6762AF0622D003DA45E /* santasHatUno.reality */,
+				7AC559342AC3A35C00219553 /* christmas_balls_dos.usdz */,
+				7AC559332AC3A35B00219553 /* christmas_coffee_and_cake.usdz */,
+				7AC559352AC3A36000219553 /* christmas_gift_boxes.usdz */,
+				7AC5592E2AC3A35200219553 /* christmas_gift_shop.usdz */,
+				7AC559312AC3A35600219553 /* christmas_house.usdz */,
+				7AC559302AC3A35500219553 /* christmas_pack.usdz */,
+				7AC5592D2AC3A35100219553 /* christmas_wreath_dos.usdz */,
+				7AC559322AC3A35800219553 /* datesroyale_christmas_scene.usdz */,
+				7AC5592F2AC3A35300219553 /* merry_christmas_dos.usdz */,
+				7A01A3E22AB8FB5400E45DC3 /* christmas_bell.usdz */,
+				7A01A3E32AB8FB5500E45DC3 /* Christmas_gate.usdz */,
+				7A01A3E02AB8FB5300E45DC3 /* Christmas_gingerbread_man.usdz */,
+				7A01A3E42AB8FB5600E45DC3 /* Christmas_Lights_dos.usdz */,
+				7A01A3E12AB8FB5300E45DC3 /* Christmas_lights_uno.usdz */,
+				7A01A3E62AB8FB5800E45DC3 /* Christmas_Star.usdz */,
+				7A01A3E52AB8FB5800E45DC3 /* Christmas_Wreath.usdz */,
+				7A01A3E72AB8FB5900E45DC3 /* Neon_christmas_tree_-_Day_12.usdz */,
+				7A01A3E82AB8FB5A00E45DC3 /* Simple_Christmas_Tree.usdz */,
+				7A01A3EA2AB8FB5E00E45DC3 /* Snowflake.usdz */,
+				7A01A3E92AB8FB5C00E45DC3 /* Wooden_Christmas_Tree_Decoration_with_Lights.usdz */,
+				7A01A3CE2AB2967D00E45DC3 /* Christmas_Tree_Gingerbread_Cookie_Arbol_Navidad.usdz */,
+				7A01A3D12AB2968000E45DC3 /* Christmas_Wreath_Cookie.usdz */,
+				7A01A3CD2AB2967C00E45DC3 /* Larrys_Christmas_Cookies.usdz */,
+				7A01A3D22AB2968100E45DC3 /* Low-Poly_Christmas_Presents.usdz */,
+				7A01A3D02AB2967F00E45DC3 /* Merry_Christmas.usdz */,
+				7A01A3D32AB2968200E45DC3 /* Milk_and_Cookies_for_Santa.usdz */,
+				7A01A3CC2AB2967A00E45DC3 /* Stack_of_Christmas_Gifts.usdz */,
+				7A01A3BD2AB23E0B00E45DC3 /* Christmas_Hat.usdz */,
+				7A01A3BE2AB23E0C00E45DC3 /* Christmas_Stocking.usdz */,
+				7A01A3BF2AB23E0E00E45DC3 /* gift_box.usdz */,
+			);
+			path = "3D Assets";
+			sourceTree = "<group>";
+		};
+		7A01A3C32AB23E1E00E45DC3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7A0514DB2ACC4CE400E1DF12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A1B14BB2B2988EF0092BF7B /* ARVideoKit-swift_5 */,
+				7A0514DC2ACC4CE400E1DF12 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A588BB52A9E892F00250F7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A7C89282A9E8AA900FD9B24 /* ModeloLista.swift */,
+				7A7C893E2AA0D06E00FD9B24 /* Products.swift */,
+				7A7C89402AA0D2A900FD9B24 /* Store.swift */,
+				7A7C89462AA60D2200FD9B24 /* Books.swift */,
+				7A01A3C42AB2523700E45DC3 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A7C892A2A9E8B4500FD9B24 /* Tarjetas */ = {
+			isa = PBXGroup;
+			children = (
+				7A754C642ACF7415002CDFA9 /* carta_reyes_magos_fondo_dos.png */,
+				7A754C662ACF741D002CDFA9 /* carta_reyes_magos_fondo_tres.png */,
+				7A721C7D2AC207E6008AB99D /* bota_dulce_dot.png */,
+				7A754C622ACF676F002CDFA9 /* carta_reyes_magos_fondo.png */,
+				7AE5FEC12AC7E8C000185A82 /* picmix.com_1757429.gif */,
+				7AE5FEBF2AC7E41500185A82 /* cartoon-santa.jpeg */,
+				7A6C78D62AC22A2700EBA698 /* pino_dos.png */,
+				7A6C78F42AC22C1300EBA698 /* luna_venados_dot.png */,
+				7A6C79042AC22CA100EBA698 /* venado_dot.png */,
+				7A6C79052AC22CA100EBA698 /* venado.png */,
+				7A6C78F82AC22C3D00EBA698 /* muneco_nieve_dot.png */,
+				7A6C79002AC22C8700EBA698 /* pino_nacimiento_dot.png */,
+				7A6C79012AC22C8700EBA698 /* pino_nacimiento.png */,
+				7A6C78FD2AC22C5D00EBA698 /* patos_hombre_nieve_dot.png */,
+				7A6C78FC2AC22C5D00EBA698 /* patos_hombre_nieve.png */,
+				7A6C78F92AC22C3D00EBA698 /* muneco_nieve.png */,
+				7A6C78F52AC22C1300EBA698 /* luna_venados.png */,
+				7A6C78F02AC22B7E00EBA698 /* cabana_venados_dot.png */,
+				7A6C78F12AC22B7E00EBA698 /* cabana_venados.png */,
+				7A6C78E82AC22AF800EBA698 /* snow_ball_dot_normal.png */,
+				7A6C78EE2AC22B2900EBA698 /* vela_dots_normal.png */,
+				7A6C78DA2AC22A6100EBA698 /* pino_dots_tres_normal.png */,
+				7A6C78DE2AC22A8B00EBA698 /* regalo_dots_normal.png */,
+				7A6C78EC2AC22B1900EBA698 /* trineo_normal.png */,
+				7A6C78E62AC22AD300EBA698 /* snow_ball_dot_dos_normal.png */,
+				7A6C78EA2AC22B0B00EBA698 /* snowball_dots_dos_normal.png */,
+				7A6C78E42AC22ABF00EBA698 /* snow_ball_clothes_normal.png */,
+				7A6C78E02AC22A9D00EBA698 /* regalos_dots_normal.png */,
+				7A6C78D02AC2292000EBA698 /* bota.png */,
+				7A6C78E22AC22AB000EBA698 /* santa_dot_normal.png */,
+				7A6C78DC2AC22A7A00EBA698 /* pino.png */,
+				7A6C78D42AC2299700EBA698 /* noche_buena_normal.png */,
+				7A721C7A2AC207E5008AB99D /* bota_dulce.png */,
+				7A6C78D82AC22A4A00EBA698 /* pino_dots_normal.png */,
+				7A6C78D22AC2298100EBA698 /* chimenea.png */,
+				7A721C772AC207E3008AB99D /* cabana_venados_dot.png */,
+				7A721C732AC207E1008AB99D /* cabana_venados.png */,
+				7A721C762AC207E3008AB99D /* luna_venados_dot.png */,
+				7A721C7F2AC207E7008AB99D /* luna_venados.png */,
+				7A721C7B2AC207E5008AB99D /* muneco_nieve_dot.png */,
+				7A721C802AC207E8008AB99D /* muneco_nieve.png */,
+				7A721C7E2AC207E7008AB99D /* patos_hombre_nieve_dot.png */,
+				7A721C782AC207E4008AB99D /* patos_hombre_nieve.png */,
+				7A721C792AC207E4008AB99D /* pino_nacimiento_dot.png */,
+				7A721C742AC207E1008AB99D /* pino_nacimiento.png */,
+				7A721C7C2AC207E6008AB99D /* venado_dot.png */,
+				7A721C752AC207E2008AB99D /* venado.png */,
+				7ADDE0A92ABCB16E0047CD7B /* duende_esfera_dots.png */,
+				7ADDE0A82ABCB16D0047CD7B /* duende_esfera.png */,
+				7A7C894D2AAFF18D00FD9B24 /* bota_dot.png */,
+				7A7C89512AAFF18F00FD9B24 /* chimenea_dots.png */,
+				7A7C89562AAFF19000FD9B24 /* noche_buena.png */,
+				7A7C89532AAFF18F00FD9B24 /* pino_dos_dots.png */,
+				7A7C89482AAFF18B00FD9B24 /* pino_dot.png */,
+				7A7C89492AAFF18B00FD9B24 /* pino_dots_tres.png */,
+				7A7C89522AAFF18F00FD9B24 /* pino_dots.png */,
+				7A7C89542AAFF19000FD9B24 /* regalo_dots.png */,
+				7A7C89572AAFF19100FD9B24 /* regalos_dots.png */,
+				7A7C89502AAFF18E00FD9B24 /* santa_dot.png */,
+				7A7C894C2AAFF18C00FD9B24 /* snow_ball_clothes.png */,
+				7A7C89552AAFF19000FD9B24 /* snow_ball_dot_dos.png */,
+				7A7C894E2AAFF18D00FD9B24 /* snow_ball_dot.png */,
+				7A7C894A2AAFF18C00FD9B24 /* snowball_dots_dos.png */,
+				7A7C894B2AAFF18C00FD9B24 /* trineo.png */,
+				7A7C894F2AAFF18E00FD9B24 /* vela_dots.png */,
+				7A7C89322A9E8B5A00FD9B24 /* tarjetaNavidadCinco.png */,
+				7A7C892B2A9E8B5800FD9B24 /* tarjetaNavidadCincoColor.png */,
+				7A7C892D2A9E8B5900FD9B24 /* tarjetaNavidadCuatro.png */,
+				7A7C89312A9E8B5A00FD9B24 /* tarjetaNavidadCuatroColor.png */,
+				7A7C89302A9E8B5900FD9B24 /* tarjetaNavidadDos.png */,
+				7A7C892E2A9E8B5900FD9B24 /* tarjetaNavidadTres.png */,
+				7A7C892C2A9E8B5800FD9B24 /* tarjetaNavidadTresColor.png */,
+				7A7C892F2A9E8B5900FD9B24 /* tarjetaNavidadUno.png */,
+			);
+			path = Tarjetas;
+			sourceTree = "<group>";
+		};
+		7AE12E8C2A8E861200C17D6F = {
+			isa = PBXGroup;
+			children = (
+				7AE12E972A8E861200C17D6F /* A letter to Santa */,
+				7AE12EAD2A8E861E00C17D6F /* A letter to SantaTests */,
+				7AE12EB72A8E861F00C17D6F /* A letter to SantaUITests */,
+				7AE12E962A8E861200C17D6F /* Products */,
+				7A0514DB2ACC4CE400E1DF12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AE12E962A8E861200C17D6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AE12E952A8E861200C17D6F /* A letter to Santa.app */,
+				7AE12EAA2A8E861E00C17D6F /* A letter to SantaTests.xctest */,
+				7AE12EB42A8E861F00C17D6F /* A letter to SantaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AE12E972A8E861200C17D6F /* A letter to Santa */ = {
+			isa = PBXGroup;
+			children = (
+				7ABFA6782AF08BB2003DA45E /* A-letter-to-Santa-Info.plist */,
+				7A01A3BC2AB23D4400E45DC3 /* 3D Assets */,
+				7A7C892A2A9E8B4500FD9B24 /* Tarjetas */,
+				7A588BB52A9E892F00250F7C /* Model */,
+				7AE12EC82A8E881000C17D6F /* View */,
+				7AE12EC72A8E880300C17D6F /* ViewModel */,
+				7AE12E982A8E861200C17D6F /* A_letter_to_SantaApp.swift */,
+				7AE12E9A2A8E861200C17D6F /* ContentView.swift */,
+				7AE12E9C2A8E861D00C17D6F /* Assets.xcassets */,
+				7A01A3C32AB23E1E00E45DC3 /* New Group */,
+				7AE12EA12A8E861D00C17D6F /* Persistence.swift */,
+				7AE12EA32A8E861D00C17D6F /* A_letter_to_Santa.xcdatamodeld */,
+				7AE12E9E2A8E861D00C17D6F /* Preview Content */,
+				7AE12ED12A8FF80E00C17D6F /* LocationManager.swift */,
+				7A7C893D2AA0C9F400FD9B24 /* Configuration.storekit */,
+			);
+			path = "A letter to Santa";
+			sourceTree = "<group>";
+		};
+		7AE12E9E2A8E861D00C17D6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7AE12E9F2A8E861D00C17D6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AE12EAD2A8E861E00C17D6F /* A letter to SantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AE12EAE2A8E861E00C17D6F /* A_letter_to_SantaTests.swift */,
+			);
+			path = "A letter to SantaTests";
+			sourceTree = "<group>";
+		};
+		7AE12EB72A8E861F00C17D6F /* A letter to SantaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AE12EB82A8E861F00C17D6F /* A_letter_to_SantaUITests.swift */,
+				7AE12EBA2A8E861F00C17D6F /* A_letter_to_SantaUITestsLaunchTests.swift */,
+			);
+			path = "A letter to SantaUITests";
+			sourceTree = "<group>";
+		};
+		7AE12EC72A8E880300C17D6F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7AE12EC92A8E886900C17D6F /* ViewModel.swift */,
+				7A588BAD2A9D6EDE00250F7C /* DalleViewModel.swift */,
+				7A588BAF2A9D6F3200250F7C /* ImageModel.swift */,
+				7A01A3C62AB2598F00E45DC3 /* Settings.swift */,
+				7ADDE0A22ABA41C50047CD7B /* AVCaptureViewController.swift */,
+				7A7B62A72BC5DF550099FAAB /* ViewModelCategoriaAcciones.swift */,
+				7A7B62A92BC5DFBF0099FAAB /* ViewModelAcciones.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7AE12EC82A8E881000C17D6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AE12ECB2A8E8AB700C17D6F /* Home.swift */,
+				7AE12ECD2A8E8ADC00C17D6F /* addView.swift */,
+				7A588BAB2A9D6D1100250F7C /* DalleUIView.swift */,
+				7A588BB32A9E88CC00250F7C /* ListaPodCardsView.swift */,
+				7A7C893B2A9E8CF000FD9B24 /* EditView.swift */,
+				7A7C89442AA60AC000FD9B24 /* BookView.swift */,
+				7A01A3B62AB23B1000E45DC3 /* HomeCamaraView.swift */,
+				7A01A3B82AB23B5D00E45DC3 /* ControlView.swift */,
+				7A01A3BA2AB23C0D00E45DC3 /* MenuView.swift */,
+				7A01A3C82AB2622F00E45DC3 /* CameraView.swift */,
+				7A01A3CA2AB2633D00E45DC3 /* CustomARView.swift */,
+				7A01A3DC2AB8C01E00E45DC3 /* USDZView.swift */,
+				7A703B2D2AB91865005AFAD0 /* ColoringView.swift */,
+				7A703B312AB9DEA7005AFAD0 /* ColoringViewDos.swift */,
+				7ADDE0A02ABA414C0047CD7B /* CameraCaptureView.swift */,
+				7ADDE0A42ABA5E3B0047CD7B /* DrawingView.swift */,
+				7ADDE0A62ABA66250047CD7B /* ColorableImageView.swift */,
+				7A721C6F2ABE01DD008AB99D /* ContentDibujoView.swift */,
+				7A721C712AC10493008AB99D /* ContentMapView.swift */,
+				7AC559292AC2A4F800219553 /* ARModelViewer.swift */,
+				7AC5592B2AC2A64400219553 /* ContentModelView.swift */,
+				7AC5593F2AC5B94900219553 /* ContentMapUserView.swift */,
+				7AE5FEC32ACA496200185A82 /* ValidaCompraMapaUIView.swift */,
+				7A7B551F2AF0164400666431 /* VideoCartaView.swift */,
+				7ABFA67B2AF1D2B2003DA45E /* CamaraPruebasView.swift */,
+				7ABFA67D2AF206A3003DA45E /* VideoRecordingView.swift */,
+				7ABFA67F2AF37437003DA45E /* CamaraCartaPruebasView.swift */,
+				7ABFA6882B296311003DA45E /* ARRecordingView.swift */,
+				7A1B14E82B3632370092BF7B /* ARModelView.swift */,
+				7A6988212B62C9DF00F36B85 /* FotoUIView.swift */,
+				7A6988232B64166D00F36B85 /* FotoARView.swift */,
+				7ADEAF562BA8BEE50059D4D6 /* ARModelViewVideo.swift */,
+				7ADEAF6E2BAB70AE0059D4D6 /* ListaModelosUIView.swift */,
+				7A8293852BACAB5600F6BA2C /* EnviaCartaUIView.swift */,
+				7A43A6022BAD2C6200E74218 /* PromocionView.swift */,
+				7A7B62AB2BC5E0590099FAAB /* addBuenasAccionesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AE12E942A8E861200C17D6F /* A letter to Santa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE12EBE2A8E861F00C17D6F /* Build configuration list for PBXNativeTarget "A letter to Santa" */;
+			buildPhases = (
+				7AE12E912A8E861200C17D6F /* Sources */,
+				7AE12E922A8E861200C17D6F /* Frameworks */,
+				7AE12E932A8E861200C17D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A letter to Santa";
+			packageProductDependencies = (
+				7A01A3B32AB23A1B00E45DC3 /* FocusEntity */,
+				7A6988262B64225400F36B85 /* CropViewController */,
+				7A6988282B64225400F36B85 /* TOCropViewController */,
+			);
+			productName = "A letter to Santa";
+			productReference = 7AE12E952A8E861200C17D6F /* A letter to Santa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AE12EA92A8E861E00C17D6F /* A letter to SantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE12EC12A8E861F00C17D6F /* Build configuration list for PBXNativeTarget "A letter to SantaTests" */;
+			buildPhases = (
+				7AE12EA62A8E861E00C17D6F /* Sources */,
+				7AE12EA72A8E861E00C17D6F /* Frameworks */,
+				7AE12EA82A8E861E00C17D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AE12EAC2A8E861E00C17D6F /* PBXTargetDependency */,
+			);
+			name = "A letter to SantaTests";
+			productName = "A letter to SantaTests";
+			productReference = 7AE12EAA2A8E861E00C17D6F /* A letter to SantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AE12EB32A8E861F00C17D6F /* A letter to SantaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE12EC42A8E861F00C17D6F /* Build configuration list for PBXNativeTarget "A letter to SantaUITests" */;
+			buildPhases = (
+				7AE12EB02A8E861F00C17D6F /* Sources */,
+				7AE12EB12A8E861F00C17D6F /* Frameworks */,
+				7AE12EB22A8E861F00C17D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AE12EB62A8E861F00C17D6F /* PBXTargetDependency */,
+			);
+			name = "A letter to SantaUITests";
+			productName = "A letter to SantaUITests";
+			productReference = 7AE12EB42A8E861F00C17D6F /* A letter to SantaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AE12E8D2A8E861200C17D6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7AE12E942A8E861200C17D6F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7AE12EA92A8E861E00C17D6F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7AE12E942A8E861200C17D6F;
+					};
+					7AE12EB32A8E861F00C17D6F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7AE12E942A8E861200C17D6F;
+					};
+				};
+			};
+			buildConfigurationList = 7AE12E902A8E861200C17D6F /* Build configuration list for PBXProject "A letter to Santa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AE12E8C2A8E861200C17D6F;
+			packageReferences = (
+				7A01A3B22AB23A1B00E45DC3 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				7A6988252B64225400F36B85 /* XCRemoteSwiftPackageReference "TOCropViewController" */,
+			);
+			productRefGroup = 7AE12E962A8E861200C17D6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AE12E942A8E861200C17D6F /* A letter to Santa */,
+				7AE12EA92A8E861E00C17D6F /* A letter to SantaTests */,
+				7AE12EB32A8E861F00C17D6F /* A letter to SantaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AE12E932A8E861200C17D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6C78EF2AC22B2900EBA698 /* vela_dots_normal.png in Resources */,
+				7A6C78DB2AC22A6100EBA698 /* pino_dots_tres_normal.png in Resources */,
+				7AC5593B2AC3A36000219553 /* datesroyale_christmas_scene.usdz in Resources */,
+				7A721C8E2AC207E8008AB99D /* muneco_nieve.png in Resources */,
+				7A01A3EF2AB8FB5F00E45DC3 /* Christmas_Lights_dos.usdz in Resources */,
+				7A7C895A2AAFF19100FD9B24 /* snowball_dots_dos.png in Resources */,
+				7A6C78D32AC2298100EBA698 /* chimenea.png in Resources */,
+				7A7C89602AAFF19100FD9B24 /* santa_dot.png in Resources */,
+				7ADEAF842BAB74800059D4D6 /* corona_rosa.png in Resources */,
+				7A754C672ACF741D002CDFA9 /* carta_reyes_magos_fondo_tres.png in Resources */,
+				7ADEAF862BAB74800059D4D6 /* cute_crown.png in Resources */,
+				7A7C89382A9E8B5A00FD9B24 /* tarjetaNavidadDos.png in Resources */,
+				7A7C89392A9E8B5A00FD9B24 /* tarjetaNavidadCuatroColor.png in Resources */,
+				7ADEAF872BAB74800059D4D6 /* gorro_cuadrado_orejas.png in Resources */,
+				7AC5593A2AC3A36000219553 /* christmas_house.usdz in Resources */,
+				7A6C78D12AC2292000EBA698 /* bota.png in Resources */,
+				7A6C78E12AC22A9D00EBA698 /* regalos_dots_normal.png in Resources */,
+				7A01A3EB2AB8FB5F00E45DC3 /* Christmas_gingerbread_man.usdz in Resources */,
+				7AE5FEC02AC7E41500185A82 /* cartoon-santa.jpeg in Resources */,
+				7AC559362AC3A36000219553 /* christmas_wreath_dos.usdz in Resources */,
+				7AC5593C2AC3A36000219553 /* christmas_coffee_and_cake.usdz in Resources */,
+				7A01A3D82AB2968200E45DC3 /* Merry_Christmas.usdz in Resources */,
+				7A7C89642AAFF19100FD9B24 /* regalo_dots.png in Resources */,
+				7ADEAF7C2BAB74800059D4D6 /* gorro_luces.png in Resources */,
+				7A6C78DD2AC22A7A00EBA698 /* pino.png in Resources */,
+				7A721C8C2AC207E8008AB99D /* patos_hombre_nieve_dot.png in Resources */,
+				7A721C8D2AC207E8008AB99D /* luna_venados.png in Resources */,
+				7A7C89352A9E8B5A00FD9B24 /* tarjetaNavidadCuatro.png in Resources */,
+				7A6C78E92AC22AF800EBA698 /* snow_ball_dot_normal.png in Resources */,
+				7AE12EA02A8E861D00C17D6F /* Preview Assets.xcassets in Resources */,
+				7A01A3C22AB23E0E00E45DC3 /* gift_box.usdz in Resources */,
+				7A01A3F42AB8FB5F00E45DC3 /* Wooden_Christmas_Tree_Decoration_with_Lights.usdz in Resources */,
+				7A721C8A2AC207E8008AB99D /* venado_dot.png in Resources */,
+				7A721C872AC207E8008AB99D /* pino_nacimiento_dot.png in Resources */,
+				7AC5593D2AC3A36000219553 /* christmas_balls_dos.usdz in Resources */,
+				7ADEAF7D2BAB74800059D4D6 /* sombrero_bruja_morado.png in Resources */,
+				7A721C812AC207E8008AB99D /* cabana_venados.png in Resources */,
+				7A6C78D92AC22A4A00EBA698 /* pino_dots_normal.png in Resources */,
+				7A01A3F52AB8FB5F00E45DC3 /* Snowflake.usdz in Resources */,
+				7ADEAF822BAB74800059D4D6 /* corona_p_rojas.png in Resources */,
+				7A7C89622AAFF19100FD9B24 /* pino_dots.png in Resources */,
+				7ADEAF7E2BAB74800059D4D6 /* tiara.png in Resources */,
+				7ADEAF832BAB74800059D4D6 /* corona_bowsete.png in Resources */,
+				7AC5593E2AC3A36000219553 /* christmas_gift_boxes.usdz in Resources */,
+				7A01A3F32AB8FB5F00E45DC3 /* Simple_Christmas_Tree.usdz in Resources */,
+				7A7C893A2A9E8B5A00FD9B24 /* tarjetaNavidadCinco.png in Resources */,
+				7A6C78EB2AC22B0B00EBA698 /* snowball_dots_dos_normal.png in Resources */,
+				7A7C89612AAFF19100FD9B24 /* chimenea_dots.png in Resources */,
+				7A721C822AC207E8008AB99D /* pino_nacimiento.png in Resources */,
+				7A01A3C12AB23E0E00E45DC3 /* Christmas_Stocking.usdz in Resources */,
+				7A7C89582AAFF19100FD9B24 /* pino_dot.png in Resources */,
+				7A721C852AC207E8008AB99D /* cabana_venados_dot.png in Resources */,
+				7A7C89342A9E8B5A00FD9B24 /* tarjetaNavidadTresColor.png in Resources */,
+				7A7C89652AAFF19100FD9B24 /* snow_ball_dot_dos.png in Resources */,
+				7A01A3F12AB8FB5F00E45DC3 /* Christmas_Star.usdz in Resources */,
+				7A7C895B2AAFF19100FD9B24 /* trineo.png in Resources */,
+				7A6C78DF2AC22A8B00EBA698 /* regalo_dots_normal.png in Resources */,
+				7A01A3D42AB2968200E45DC3 /* Stack_of_Christmas_Gifts.usdz in Resources */,
+				7ABFA6772AF0622D003DA45E /* santasHatUno.reality in Resources */,
+				7A7C89662AAFF19100FD9B24 /* noche_buena.png in Resources */,
+				7A01A3D92AB2968200E45DC3 /* Christmas_Wreath_Cookie.usdz in Resources */,
+				7A7C895F2AAFF19100FD9B24 /* vela_dots.png in Resources */,
+				7A7C895C2AAFF19100FD9B24 /* snow_ball_clothes.png in Resources */,
+				7A6C78E72AC22AD300EBA698 /* snow_ball_dot_dos_normal.png in Resources */,
+				7A01A3D72AB2968200E45DC3 /* Christmas_Lights.usdz in Resources */,
+				7A7C89372A9E8B5A00FD9B24 /* tarjetaNavidadUno.png in Resources */,
+				7A6C78ED2AC22B1900EBA698 /* trineo_normal.png in Resources */,
+				7ADDE0AA2ABCB16E0047CD7B /* duende_esfera.png in Resources */,
+				7A01A3DB2AB2968200E45DC3 /* Milk_and_Cookies_for_Santa.usdz in Resources */,
+				7A6C78D72AC22A2700EBA698 /* pino_dos.png in Resources */,
+				7ADEAF812BAB74800059D4D6 /* gorro_santa_roblox.png in Resources */,
+				7AC559372AC3A36000219553 /* christmas_gift_shop.usdz in Resources */,
+				7ADEAF802BAB74800059D4D6 /* corona_colores.png in Resources */,
+				7A7C895E2AAFF19100FD9B24 /* snow_ball_dot.png in Resources */,
+				7ADEAF7F2BAB74800059D4D6 /* corona_azul.png in Resources */,
+				7A01A3ED2AB8FB5F00E45DC3 /* christmas_bell.usdz in Resources */,
+				7A721C832AC207E8008AB99D /* venado.png in Resources */,
+				7A7C89672AAFF19100FD9B24 /* regalos_dots.png in Resources */,
+				7ADEAF852BAB74800059D4D6 /* gorro_bolita_santa.png in Resources */,
+				7A6C78E32AC22AB000EBA698 /* santa_dot_normal.png in Resources */,
+				7A01A3DA2AB2968200E45DC3 /* Low-Poly_Christmas_Presents.usdz in Resources */,
+				7A721C892AC207E8008AB99D /* muneco_nieve_dot.png in Resources */,
+				7A01A3EC2AB8FB5F00E45DC3 /* Christmas_lights_uno.usdz in Resources */,
+				7A721C8B2AC207E8008AB99D /* bota_dulce_dot.png in Resources */,
+				7A6C78D52AC2299700EBA698 /* noche_buena_normal.png in Resources */,
+				7A721C842AC207E8008AB99D /* luna_venados_dot.png in Resources */,
+				7A721C862AC207E8008AB99D /* patos_hombre_nieve.png in Resources */,
+				7AC559392AC3A36000219553 /* christmas_pack.usdz in Resources */,
+				7A7C895D2AAFF19100FD9B24 /* bota_dot.png in Resources */,
+				7A754C632ACF676F002CDFA9 /* carta_reyes_magos_fondo.png in Resources */,
+				7AC559382AC3A36000219553 /* merry_christmas_dos.usdz in Resources */,
+				7AE12E9D2A8E861D00C17D6F /* Assets.xcassets in Resources */,
+				7A7C89592AAFF19100FD9B24 /* pino_dots_tres.png in Resources */,
+				7A01A3EE2AB8FB5F00E45DC3 /* Christmas_gate.usdz in Resources */,
+				7A7C89332A9E8B5A00FD9B24 /* tarjetaNavidadCincoColor.png in Resources */,
+				7A721C882AC207E8008AB99D /* bota_dulce.png in Resources */,
+				7AE5FEC22AC7E8C000185A82 /* picmix.com_1757429.gif in Resources */,
+				7A01A3C02AB23E0E00E45DC3 /* Christmas_Hat.usdz in Resources */,
+				7A01A3F22AB8FB5F00E45DC3 /* Neon_christmas_tree_-_Day_12.usdz in Resources */,
+				7A01A3D62AB2968200E45DC3 /* Christmas_Tree_Gingerbread_Cookie_Arbol_Navidad.usdz in Resources */,
+				7A754C652ACF7415002CDFA9 /* carta_reyes_magos_fondo_dos.png in Resources */,
+				7A01A3F02AB8FB5F00E45DC3 /* Christmas_Wreath.usdz in Resources */,
+				7ADDE0AB2ABCB16E0047CD7B /* duende_esfera_dots.png in Resources */,
+				7A7C89632AAFF19100FD9B24 /* pino_dos_dots.png in Resources */,
+				7A7C89362A9E8B5A00FD9B24 /* tarjetaNavidadTres.png in Resources */,
+				7A01A3D52AB2968200E45DC3 /* Larrys_Christmas_Cookies.usdz in Resources */,
+				7A6C78E52AC22ABF00EBA698 /* snow_ball_clothes_normal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE12EA82A8E861E00C17D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE12EB22A8E861F00C17D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AE12E912A8E861200C17D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE12ECA2A8E886900C17D6F /* ViewModel.swift in Sources */,
+				7A721C702ABE01DD008AB99D /* ContentDibujoView.swift in Sources */,
+				7A8293902BAD178400F6BA2C /* coronaguinda.rcproject in Sources */,
+				7A7C89472AA60D2200FD9B24 /* Books.swift in Sources */,
+				7A1B14E92B3632370092BF7B /* ARModelView.swift in Sources */,
+				7ABFA6892B296312003DA45E /* ARRecordingView.swift in Sources */,
+				7ADDE0A72ABA66250047CD7B /* ColorableImageView.swift in Sources */,
+				7AC5592A2AC2A4F800219553 /* ARModelViewer.swift in Sources */,
+				7AE12EA22A8E861D00C17D6F /* Persistence.swift in Sources */,
+				7AE12E9B2A8E861200C17D6F /* ContentView.swift in Sources */,
+				7A588BAC2A9D6D1100250F7C /* DalleUIView.swift in Sources */,
+				7ABFA67E2AF206A3003DA45E /* VideoRecordingView.swift in Sources */,
+				7A703B2E2AB91865005AFAD0 /* ColoringView.swift in Sources */,
+				7ADEAF992BAB80E70059D4D6 /* coronabowsete.rcproject in Sources */,
+				7AE12EA52A8E861D00C17D6F /* A_letter_to_Santa.xcdatamodeld in Sources */,
+				7A721C722AC10493008AB99D /* ContentMapView.swift in Sources */,
+				7ABFA67C2AF1D2B2003DA45E /* CamaraPruebasView.swift in Sources */,
+				7ADEAF5D2BA9EEEF0059D4D6 /* santasHatDoce.rcproject in Sources */,
+				7AC559402AC5B94900219553 /* ContentMapUserView.swift in Sources */,
+				7ADDE0A32ABA41C50047CD7B /* AVCaptureViewController.swift in Sources */,
+				7ADDE0A12ABA414C0047CD7B /* CameraCaptureView.swift in Sources */,
+				7A01A3BB2AB23C0D00E45DC3 /* MenuView.swift in Sources */,
+				7ADEAF972BAB80E70059D4D6 /* tiaramorada.rcproject in Sources */,
+				7ADEAF5B2BA9ED760059D4D6 /* santasHatOnce.rcproject in Sources */,
+				7ADDE0A52ABA5E3B0047CD7B /* DrawingView.swift in Sources */,
+				7A588BB42A9E88CC00250F7C /* ListaPodCardsView.swift in Sources */,
+				7A7B62A82BC5DF550099FAAB /* ViewModelCategoriaAcciones.swift in Sources */,
+				7A01A3B72AB23B1000E45DC3 /* HomeCamaraView.swift in Sources */,
+				7A43A5FF2BAD1C9100E74218 /* sombrerobruja.rcproject in Sources */,
+				7AE12ECC2A8E8AB700C17D6F /* Home.swift in Sources */,
+				7ADEAF592BA9EAC70059D4D6 /* santasHatDiez.rcproject in Sources */,
+				7A8293862BACAB5600F6BA2C /* EnviaCartaUIView.swift in Sources */,
+				7A588BB02A9D6F3200250F7C /* ImageModel.swift in Sources */,
+				7A01A3CB2AB2633D00E45DC3 /* CustomARView.swift in Sources */,
+				7AC5592C2AC2A64400219553 /* ContentModelView.swift in Sources */,
+				7A7B55202AF0164400666431 /* VideoCartaView.swift in Sources */,
+				7A7C89452AA60AC000FD9B24 /* BookView.swift in Sources */,
+				7A7B62AA2BC5DFBF0099FAAB /* ViewModelAcciones.swift in Sources */,
+				7A01A3DD2AB8C01E00E45DC3 /* USDZView.swift in Sources */,
+				7ADEAF5F2BA9EFD70059D4D6 /* santasHatTrece.rcproject in Sources */,
+				7A6988242B64166D00F36B85 /* FotoARView.swift in Sources */,
+				7A7C893F2AA0D06E00FD9B24 /* Products.swift in Sources */,
+				7A01A3C52AB2523700E45DC3 /* Model.swift in Sources */,
+				7A43A6012BAD1C9C00E74218 /* coronarosa.rcproject in Sources */,
+				7ABFA6802AF37437003DA45E /* CamaraCartaPruebasView.swift in Sources */,
+				7ADEAF692BAA33C60059D4D6 /* coronaAzul.rcproject in Sources */,
+				7A7C89412AA0D2A900FD9B24 /* Store.swift in Sources */,
+				7A588BAE2A9D6EDE00250F7C /* DalleViewModel.swift in Sources */,
+				7AE12E992A8E861200C17D6F /* A_letter_to_SantaApp.swift in Sources */,
+				7A01A3C72AB2598F00E45DC3 /* Settings.swift in Sources */,
+				7A7C893C2A9E8CF000FD9B24 /* EditView.swift in Sources */,
+				7A7C89292A9E8AA900FD9B24 /* ModeloLista.swift in Sources */,
+				7ADEAF6F2BAB70AE0059D4D6 /* ListaModelosUIView.swift in Sources */,
+				7A82938A2BAD150E00F6BA2C /* sombrerobrujados.rcproject in Sources */,
+				7ADEAF572BA8BEE50059D4D6 /* ARModelViewVideo.swift in Sources */,
+				7A43A6032BAD2C6200E74218 /* PromocionView.swift in Sources */,
+				7AE5FEC42ACA496200185A82 /* ValidaCompraMapaUIView.swift in Sources */,
+				7ADEAF922BAB80E70059D4D6 /* gorrobolitas.rcproject in Sources */,
+				7AE12ECE2A8E8ADC00C17D6F /* addView.swift in Sources */,
+				7A01A3B92AB23B5D00E45DC3 /* ControlView.swift in Sources */,
+				7ADEAF9A2BAB80E70059D4D6 /* corona_p_rojas.rcproject in Sources */,
+				7ADEAF672BAA31260059D4D6 /* cute_crown.rcproject in Sources */,
+				7A7B55242AF01A5E00666431 /* santasHatNueve.rcproject in Sources */,
+				7ADEAF9B2BAB80E70059D4D6 /* gorroorejas.rcproject in Sources */,
+				7ADEAF612BA9F09E0059D4D6 /* santasHatCatorce.rcproject in Sources */,
+				7ADEAF982BAB80E70059D4D6 /* gorroroblox.rcproject in Sources */,
+				7ADEAF942BAB80E70059D4D6 /* gorroluces.rcproject in Sources */,
+				7A6988222B62C9DF00F36B85 /* FotoUIView.swift in Sources */,
+				7A01A3C92AB2622F00E45DC3 /* CameraView.swift in Sources */,
+				7A7B62AC2BC5E0590099FAAB /* addBuenasAccionesView.swift in Sources */,
+				7A703B322AB9DEA7005AFAD0 /* ColoringViewDos.swift in Sources */,
+				7AE12ED22A8FF80E00C17D6F /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE12EA62A8E861E00C17D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE12EAF2A8E861E00C17D6F /* A_letter_to_SantaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE12EB02A8E861F00C17D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE12EB92A8E861F00C17D6F /* A_letter_to_SantaUITests.swift in Sources */,
+				7AE12EBB2A8E861F00C17D6F /* A_letter_to_SantaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AE12EAC2A8E861E00C17D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AE12E942A8E861200C17D6F /* A letter to Santa */;
+			targetProxy = 7AE12EAB2A8E861E00C17D6F /* PBXContainerItemProxy */;
+		};
+		7AE12EB62A8E861F00C17D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AE12E942A8E861200C17D6F /* A letter to Santa */;
+			targetProxy = 7AE12EB52A8E861F00C17D6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7AE12EBC2A8E861F00C17D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AE12EBD2A8E861F00C17D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AE12EBF2A8E861F00C17D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"A letter to Santa/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PGYTLA4LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "A-letter-to-Santa-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Carta a Reyes ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Usar camara para grabar la carta virtual";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use location to view Santa`s Journey";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Se necesita acceso al micrófono para ARKit.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Usar sensor para grabar la carta";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Guardar la imagen en la galeria";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Usar camara para grabar la carta virtual";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit armv7";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyp.cartareyesmagospp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AE12EC02A8E861F00C17D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"A letter to Santa/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PGYTLA4LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "A-letter-to-Santa-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Carta a Reyes ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Usar camara para grabar la carta virtual";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use location to view Santa`s Journey";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Se necesita acceso al micrófono para ARKit.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Usar sensor para grabar la carta";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Guardar la imagen en la galeria";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Usar camara para grabar la carta virtual";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit armv7";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyp.cartareyesmagospp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AE12EC22A8E861F00C17D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PGYTLA4LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pyp.A-letter-to-SantaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A letter to Santa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/A letter to Santa";
+			};
+			name = Debug;
+		};
+		7AE12EC32A8E861F00C17D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PGYTLA4LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pyp.A-letter-to-SantaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A letter to Santa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/A letter to Santa";
+			};
+			name = Release;
+		};
+		7AE12EC52A8E861F00C17D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PGYTLA4LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pyp.A-letter-to-SantaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "A letter to Santa";
+			};
+			name = Debug;
+		};
+		7AE12EC62A8E861F00C17D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PGYTLA4LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pyp.A-letter-to-SantaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "A letter to Santa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AE12E902A8E861200C17D6F /* Build configuration list for PBXProject "A letter to Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE12EBC2A8E861F00C17D6F /* Debug */,
+				7AE12EBD2A8E861F00C17D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE12EBE2A8E861F00C17D6F /* Build configuration list for PBXNativeTarget "A letter to Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE12EBF2A8E861F00C17D6F /* Debug */,
+				7AE12EC02A8E861F00C17D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE12EC12A8E861F00C17D6F /* Build configuration list for PBXNativeTarget "A letter to SantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE12EC22A8E861F00C17D6F /* Debug */,
+				7AE12EC32A8E861F00C17D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE12EC42A8E861F00C17D6F /* Build configuration list for PBXNativeTarget "A letter to SantaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE12EC52A8E861F00C17D6F /* Debug */,
+				7AE12EC62A8E861F00C17D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A01A3B22AB23A1B00E45DC3 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		7A6988252B64225400F36B85 /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A01A3B32AB23A1B00E45DC3 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A01A3B22AB23A1B00E45DC3 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+		7A6988262B64225400F36B85 /* CropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A6988252B64225400F36B85 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = CropViewController;
+		};
+		7A6988282B64225400F36B85 /* TOCropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A6988252B64225400F36B85 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = TOCropViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		7AE12EA32A8E861D00C17D6F /* A_letter_to_Santa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AE12EA42A8E861D00C17D6F /* A_letter_to_Santa.xcdatamodel */,
+			);
+			currentVersion = 7AE12EA42A8E861D00C17D6F /* A_letter_to_Santa.xcdatamodel */;
+			path = A_letter_to_Santa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7AE12E8D2A8E861200C17D6F /* Project object */;
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cuidar_plantas.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

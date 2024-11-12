@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FocusEntity",
+        "repositoryURL": "https://github.com/maxxfrazer/FocusEntity.git",
+        "state": {
+          "branch": "main",
+          "revision": "f12c0808c8d9711a21ca2bba0cdb5df79dfb3f63",
+          "version": null
+        }
+      },
+      {
+        "package": "TOCropViewController",
+        "repositoryURL": "https://github.com/TimOliver/TOCropViewController.git",
+        "state": {
+          "branch": null,
+          "revision": "d0470491f56e734731bbf77991944c0dfdee3e0e",
+          "version": "2.6.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

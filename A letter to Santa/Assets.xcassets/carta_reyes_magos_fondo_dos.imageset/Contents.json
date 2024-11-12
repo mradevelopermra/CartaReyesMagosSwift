@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "carta_reyes_magos_fondo_dos.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - RecordARFace (0.4.12)
+
+DEPENDENCIES:
+  - RecordARFace (from `../`)
+
+EXTERNAL SOURCES:
+  RecordARFace:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RecordARFace: 3c3b2a536b1920a365c34c7e8568b0d3683db00e
+
+PODFILE CHECKSUM: 9c289bf5464f5859fc6b56b7c455ca0257d53b25
+
+COCOAPODS: 1.5.3

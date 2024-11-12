@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "limpiar_cuarto.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

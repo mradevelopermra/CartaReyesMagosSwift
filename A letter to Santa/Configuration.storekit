@@ -1,0 +1,33 @@
+{
+  "identifier" : "F2B46C74",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "AB325683",
+      "localizations" : [
+        {
+          "description" : "Create post cards",
+          "displayName" : "Draw ",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.pyp.cartareyesmagospp.draw",
+      "referenceName" : "Draw",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

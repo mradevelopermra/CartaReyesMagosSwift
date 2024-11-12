@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "fondo_carta_reyes_magos_tres.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

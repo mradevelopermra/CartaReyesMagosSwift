@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "dar_comer_mascotas_nina.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

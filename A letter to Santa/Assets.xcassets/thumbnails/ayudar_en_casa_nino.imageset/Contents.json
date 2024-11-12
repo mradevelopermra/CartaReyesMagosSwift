@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ayudar_en_casa_nino.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

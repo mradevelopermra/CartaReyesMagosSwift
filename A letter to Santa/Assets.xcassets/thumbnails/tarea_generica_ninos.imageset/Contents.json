@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tarea_generica_ninos.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
